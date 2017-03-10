@@ -143,6 +143,7 @@ section .main1 {
   padding: 0 1rem;
   padding-top: 0.1rem;
   box-sizing: border-box;
+  font-size: 1.2rem;
 }
 section .main1 p:nth-child(1) {
   color: #666666;
@@ -169,6 +170,11 @@ section .main1 p:nth-child(2) .a {
 section .main1 p:nth-child(2) .b {
   color: #fe7f1e;
 }
+section .main1 p:nth-child(2) span:nth-child(1) {
+  display: inline-block;
+  float: left;
+}
 section .main1 p:nth-child(2) span:nth-child(2) {
+  display: inline-block;
   float: right;
 }
