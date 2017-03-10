@@ -1,0 +1,307 @@
+@import url("reset.css");
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+#wrap .zhe_1 {
+  width: 100%;
+  height: 100%;
+  background: #949494;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+}
+#wrap .zhe_2 {
+  width: 100%;
+  height: 100%;
+  background: #949494;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+}
+#wrap .con {
+  width: 100%;
+  height: 10rem;
+  background: none;
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+#wrap .con .con1 {
+  width: 100%;
+  height: 10rem;
+  background: #ffffff;
+  border-radius: 0.6rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
+}
+#wrap .con .con1 h2 {
+  width: 100%;
+  height: 1.4rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+#wrap .con .con1 p {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin-top: 0.5rem;
+}
+#wrap .con .con1 .cs {
+  width: 100%;
+  height: 3.3rem;
+  background: none;
+  margin-top: 2rem;
+  border-top: 0.1rem solid #BFBFBF;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#wrap .con .con1 .cs p:nth-child(1) {
+  width: 100%;
+  height: 3.3rem;
+  background: none;
+  margin: 0;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #118dff;
+  font-size: 1.4rem;
+  line-height: 3.3rem;
+  border-right: 0.1rem solid #BFBFBF ;
+}
+#wrap .con .con1 .cs p:nth-child(2) {
+  width: 100%;
+  height: 3.3rem;
+  background: none;
+  margin: 0;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #118dff;
+  font-size: 1.4rem;
+  line-height: 3.3rem;
+}
+header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border-bottom: 0.1rem solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+header .header_left {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_left img {
+  width: 0.9rem;
+  height: 1.5rem;
+  background: 0;
+}
+header .header_right {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section form {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+section form .name {
+  width: 100%;
+  height: 2.5rem;
+  background: #f7f7f7;
+  border-bottom: 0.1rem solid #ECE9E9;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section form .name label {
+  display: inline-block;
+  width: 5.5rem;
+  height: 2.5rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .name div {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+}
+section form .name div input {
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .phone {
+  width: 100%;
+  height: 2.5rem;
+  background: #f7f7f7;
+  border-bottom: 0.1rem solid #ECE9E9;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section form .phone label {
+  display: inline-block;
+  width: 5.5rem;
+  height: 2.5rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .phone div {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+}
+section form .phone div input {
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .city {
+  width: 100%;
+  height: 2.5rem;
+  background: #f7f7f7;
+  border-bottom: 0.1rem solid #ECE9E9;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section form .city p {
+  width: 7.2rem;
+  height: 2.5rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .city .names {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+}
+section form .city .names input {
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .city .img4 {
+  width: 0.8rem;
+  height: 2.5rem;
+  background: none;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+section form .city .img4 img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+section form .address {
+  width: 100%;
+  height: 2.5rem;
+  background: #f7f7f7;
+  border-bottom: 0.1rem solid #ECE9E9;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section form .address label {
+  display: inline-block;
+  width: 7.2rem;
+  height: 2.5rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .address div {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+}
+section form .address div input {
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+section form .sub {
+  width: 100%;
+  height: 3.4rem;
+  background: none;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+section form .sub input {
+  width: 100%;
+  height: 3.4rem;
+  background: #ff7f1c;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 0.6rem;
+}

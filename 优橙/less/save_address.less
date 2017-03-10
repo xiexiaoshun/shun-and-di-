@@ -1,0 +1,242 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html,body,#wrap{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    font-size: 62.5%;
+    overflow:hidden;
+}
+#wrap{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: relative;
+    .zhe_1{
+        .whb(100%,100%,#949494);
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.5;
+    }
+    .zhe_2{
+        .whb(100%,100%,#949494);
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.5;
+    }
+    .con{
+        .whb(100%,10rem,none);
+        display: none;
+        position: absolute;
+        top: 50%-5rem;
+        left: 0;
+        padding: 0 4rem;
+        box-sizing: border-box;
+        .con1{
+            .whb(100%,10rem,#fff);
+            border-radius: 0.6rem;
+            text-align: center;
+            padding-top: 1.5rem;
+            box-sizing: border-box;
+            h2{
+                .whb(100%,1.4rem,none);
+                font-size: 1.4rem;
+                line-height: 1.4rem;
+                font-weight: bold;
+            }
+            p{
+                .whb(100%,1.2rem,none);
+                font-size: 1.2rem;
+                line-height: 1.2rem;
+                margin-top: 0.5rem;
+            }
+            .cs{
+                .whb(100%,3.3rem,none);
+                margin-top: 2rem;
+                border-top: 0.1rem solid #BFBFBF;
+                display: -webkit-box;
+                -webkit-box-orient: horizontal;
+                p:nth-child(1){
+                    .whb(100%,3.3rem,none);
+                    margin: 0;
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                    color: #118dff;
+                    font-size: 1.4rem;
+                    line-height: 3.3rem;
+                    border-right:0.1rem solid #BFBFBF ;
+                }
+                p:nth-child(2){
+                    .whb(100%,3.3rem,none);
+                    margin: 0;
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                    color: #118dff;
+                    font-size: 1.4rem;
+                    line-height: 3.3rem;
+                }
+            }
+        }
+    }
+}
+header{
+    .whb(100%,3.5rem,#f7f7f7);
+    border-bottom: 0.1rem solid #bfbfbf;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    .header_left{
+        .whb(3.2rem,3.5rem,0);
+        text-align: center;
+        padding-top: 1rem;
+        box-sizing: border-box;
+        img{
+            .whb(0.9rem,1.5rem,0);
+        }
+    }
+    .header_right{
+        .whb(3.2rem,3.5rem,0);
+        text-align: center;
+        padding-top: 1rem;
+        box-sizing: border-box;
+    }
+    .header_center{
+        -webkit-box-flex: 1;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    form{
+        .whb(100%,auto,none);
+        .name{
+            .whb(100%,2.5rem,#f7f7f7);
+            border-bottom: 0.1rem solid #ECE9E9;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            label{
+                display: inline-block;
+                .whb(5.5rem,2.5rem,none);
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+            div{
+                -webkit-box-flex: 1;
+                .whb(100%,2.5rem,none);
+                input{
+                    .whb(100%,2.5rem,none);
+                    border: none;
+                    outline: none;
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+        .phone{
+            .whb(100%,2.5rem,#f7f7f7);
+            border-bottom: 0.1rem solid #ECE9E9;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            label{
+                display: inline-block;
+                .whb(5.5rem,2.5rem,none);
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+            div{
+                -webkit-box-flex: 1;
+                .whb(100%,2.5rem,none);
+                input{
+                    .whb(100%,2.5rem,none);
+                    border: none;
+                    outline: none;
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+        .city{
+            .whb(100%,2.5rem,#f7f7f7);
+            border-bottom: 0.1rem solid #ECE9E9;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            p{
+                .whb(7.2rem,2.5rem,none);
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+            .names{
+                -webkit-box-flex: 1;
+                .whb(100%,2.5rem,none);
+                input{
+                    .whb(100%,2.5rem,none);
+                    border: none;
+                    outline: none;
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                }
+            }
+            .img4{
+                .whb(0.8rem,2.5rem,none);
+                padding-top: 0.5rem;
+                box-sizing: border-box;
+                img{
+                    .whb(0.8rem,auto,none);
+                }
+            }
+        }
+        .address{
+            .whb(100%,2.5rem,#f7f7f7);
+            border-bottom: 0.1rem solid #ECE9E9;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            label{
+                display: inline-block;
+                .whb(7.2rem,2.5rem,none);
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+            div{
+                -webkit-box-flex: 1;
+                .whb(100%,2.5rem,none);
+                input{
+                    .whb(100%,2.5rem,none);
+                    border: none;
+                    outline: none;
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+        .sub{
+            .whb(100%,3.4rem,none);
+            margin-top: 2rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            input{
+                .whb(100%,3.4rem,#ff7f1c);
+                border: none;
+                outline: none;
+                color: #fff;
+                font-size: 1.6rem;
+                border-radius: 0.6rem;
+            }
+        }
+    }
+}

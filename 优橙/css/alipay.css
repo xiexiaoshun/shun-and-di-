@@ -72,10 +72,11 @@ section .main form .name {
 }
 section .main form .name input {
   width: 100%;
-  height: 100%;
+  height: 3.3rem;
   background: 0;
   border: none;
   outline: none;
+  font-size: 1.2rem;
 }
 section .main form .name input::-webkit-input-placeholder {
   font-size: 1.4rem;
@@ -108,10 +109,11 @@ section .main form .passward .as {
 }
 section .main form .passward .as input {
   width: 100%;
-  height: 100%;
+  height: 3.3rem;
   background: none;
   border: none;
   outline: none;
+  font-size: 1.2rem;
 }
 section .main form .passward .as input::-webkit-input-placeholder {
   font-size: 1.4rem;
