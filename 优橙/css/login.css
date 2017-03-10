@@ -1,0 +1,137 @@
+@import url("reset.css");
+html,
+body,
+.boss {
+  width: 100%;
+  height: 100%;
+  background: null;
+}
+.boss section {
+  width: 100%;
+  height: 100%;
+  background: #ece9e9;
+  background: url(../img/login_01.png) no-repeat;
+  background-size: 100% 100%;
+}
+.boss section .title {
+  width: 100%;
+  height: auto;
+  background: null;
+  text-align: center;
+  font-size: 18px;
+  color: #ff7d1b;
+}
+.boss section .title img {
+  width: 100px;
+  height: auto;
+  background: null;
+  margin-top: 56px;
+}
+.boss section .tel {
+  width: 100%;
+  height: 33px;
+  background: null;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 40px;
+}
+.boss section .tel img {
+  width: 33px;
+  height: 33px;
+  background: null;
+  margin-left: 38px;
+}
+.boss section .tel .txt {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 26px;
+  background: null;
+  margin-right: 38px;
+  margin-left: 12px;
+}
+.boss section .tel .txt input {
+  width: 100%;
+  height: 26px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ff7d1b;
+  margin: 2px 0;
+}
+.boss section .tel .txt input::-webkit-input-placeholder {
+  color: #808080;
+  font-size: 13px;
+}
+.boss section .pwd {
+  width: 100%;
+  height: 33px;
+  background: null;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 20px;
+}
+.boss section .pwd img {
+  width: 33px;
+  height: 33px;
+  background: null;
+  margin-left: 38px;
+}
+.boss section .pwd .txt {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 26px;
+  background: null;
+  margin-right: 38px;
+  margin-left: 12px;
+  position: relative;
+}
+.boss section .pwd .txt img {
+  width: 24px;
+  height: auto;
+  background: null;
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+.boss section .pwd .txt input {
+  width: 100%;
+  height: 26px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ff7d1b;
+  margin: 2px 0;
+}
+.boss section .pwd .txt input::-webkit-input-placeholder {
+  color: #808080;
+  font-size: 13px;
+}
+.boss section .login {
+  width: 100%;
+  height: 40px;
+  background: none;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+.boss section .login button {
+  width: 100%;
+  height: 40px;
+  background: #ff7d1b;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  color: white;
+}
+.boss section .contain {
+  padding: 0 16px;
+  margin-top: 10px;
+  color: #507daf;
+}
+.boss section .contain .con_left {
+  float: left;
+}
+.boss section .contain .con_right {
+  float: right;
+}

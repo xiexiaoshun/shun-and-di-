@@ -1,0 +1,91 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.f(@f){
+    float: @f;   
+}
+.box(@to){
+    display: -webkit-box;
+    -webkit-box-orient: @to;
+}
+html,body,.boss{
+    .whb(100%,100%,null);
+}
+.boss{
+    section{
+        .whb(100%,100%,#ece9e9);
+        background: url(../img/login_01.png) no-repeat ;
+        background-size: 100% 100%;
+        .title{
+            .whb(100%,auto,null);
+            text-align: center;
+            font-size: 13px;
+            color: #666666;
+            img{
+                .whb(100px,auto,null);
+                margin-top: 56px;
+            }
+        }
+        .pwd{
+            .whb(100%,33px,null);
+            .box(horizontal);
+            margin-top: 30px;
+            img{
+                .whb(33px,33px,null);
+                margin-left: 38px;
+            }
+            .txt{
+                -webkit-box-flex: 1;
+                .whb(100%,26px,null);
+                margin-right: 38px;
+                margin-left: 12px;
+                position: relative;
+                img{
+                    .whb(24px,auto,null);
+                    position: absolute;
+                    right: 0px;
+                    bottom: 2px;
+                }
+                input{
+                    .whb(100%,26px,none);
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid #ff7d1b;
+                    margin: 2px 0;
+                }  
+                input::-webkit-input-placeholder{
+                    color: #808080;
+                    font-size: 13px;
+                } 
+            }
+        }
+        .login{
+            .whb(100%,40px,none);
+            margin-top: 30px;
+            box-sizing: border-box;
+            padding: 0 16px;
+            button{
+                .whb(100%,40px,#ff7d1b);
+                border-radius: 5px;
+                font-size: 17px;
+                outline: none;
+                border: none;
+                color: white;
+            }   
+        }
+        .contain{
+            padding: 0 16px;
+            margin-top: 10px;
+            color: #507daf;
+            .con_left{
+                float: left;
+            }
+            .con_right{
+                float: right;
+            }
+        }
+    }
+}

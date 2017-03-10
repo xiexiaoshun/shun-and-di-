@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优橙-密码重置</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="css/pwd_reset.css">
+	</head>
+	<body>
+		<div class="boss">
+			<header><img src="img/pwd_03.png"><h1>密码重置</h1></header>
+			<section>
+				<div class="contain">
+					<div class="pwd"><input type="text" placeholder="请输入新密码" id="newpwd"/></div>
+					<div class="pwd"><input type="text" placeholder="请再次输入密码" id="repwd"/></div>
+					<div class="pwd"><input type="text" placeholder="请输入手机号码" id="phone"/></div>
+					<div class="code"><input type="text" placeholder="请输入验证码" id="rephone"/><span>获取验证码</span></div>
+				</div>
+				<div class="login"><button id="sub">提 交</button></div>
+				<div class="shade_big"></div>
+				<div class="shade_small"></div>
+			</section>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var login = document.getElementById('sub');
+		var shade_big = document.getElementsByClassName('shade_big')[0];
+		var shade_small = document.getElementsByClassName('shade_small')[0];
+		login.onclick = function(){
+			var newpwd = document.getElementById('newpwd').value;
+			var repwd = document.getElementById('repwd').value;
+			var newpwd = document.getElementById('phone').value;
+			var repwd = document.getElementById('rephone').value;
+//			if(email || pwd != ''){	
+//				sessionStorage.setItem(email,pwd);
+//				big.style.display = 'block';
+//				small.style.display = 'block';
+//			}else{
+//				alert('不能为空');
+//			}
+		}
+//		sure.onclick = function(){
+//			big.style.display = 'none';
+//			small.style.display = 'none';
+//		}
+	</script>
+</html>
