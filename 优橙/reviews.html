@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优橙-评论管理</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reviews.css">
+	</head>
+	<body>
+		<div class="boss">
+			<header>
+				<div class="header_left"><img src="img/view.png"></div>
+				<h1>评论管理</h1>
+				<div class="header_right"><img src="img/view_01.png"></div>
+			</header>
+			<nav>
+				<ul>
+					<li>全部类型<span><img src="img/view_02.png"></span></li>
+					<li>评分等级<span><img src="img/view_03.png"></span></li>
+					<li>评论时间<span><img src="img/view_03.png"></span></li>
+				</ul>
+			</nav>
+			<section>
+				<div class="contain">
+					<h3>3D打印的陶瓷</h3>
+					<div class="main">
+						<div class="main1">
+							<div class="deal">
+								<p>订单编号：DSFS012389143</p>
+								<p>用户ID：顺风耳 </p>
+								<p>交易时间：2016-06-01 12:14</p>
+								<p>交易时间：2016-06-01 12:14</p>
+							</div>
+							<div class="star">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_05.png">
+						</div>
+						</div>
+						<div class="main2">
+							Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。
+						</div>
+					</div>
+					<div class="reply">
+						<span>回复评论</span>
+					</div>
+				</div>
+				<div class="contain">
+					<h3>3D打印的陶瓷</h3>
+					<div class="main">
+						<div class="main1">
+							<div class="deal">
+								<p>订单编号：DSFS012389143</p>
+								<p>用户ID：顺风耳 </p>
+								<p>交易时间：2016-06-01 12:14</p>
+								<p>交易时间：2016-06-01 12:14</p>
+							</div>
+							<div class="star">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_04.png">
+							<img src="img/view_05.png">
+						</div>
+						</div>
+						<div class="main2">
+							Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。
+							<p><b>追加评论</b>：Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。</p>
+							<p><b>您的回复</b>：Formlabs发布该产品的原因很简单、直接：目前低端3D打印机都无法满足职业设计师的标准。</p>
+						</div>
+					</div>
+				</div>
+				<div class="shade_big"></div>
+				<div class="shade_small">
+					<input type="text" placeholder="只有一次回复机会，请斟酌回复"/>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.reply>span').click(function(){
+				$('.shade_big').show();
+				$('.shade_small').show();
+			});
+			$(document).click(function(event){
+				event.stopPropagation();
+				$('.shade_big').hide();
+				$('.shade_small').hide();
+			});
+		});
+	</script>
+</html>

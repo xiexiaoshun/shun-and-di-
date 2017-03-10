@@ -1,0 +1,75 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.f(@f){
+    float: @f;   
+}
+.box(@to){
+    display: -webkit-box;
+    -webkit-box-orient: @to;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,.boss{
+    .whb(100%,100%,null);
+}
+.boss{
+    .box(vertical);
+    header{
+        .whb(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid gainsboro;
+        img{
+            .whb(1rem,auto,none);
+            position: absolute;
+            left: 1rem;
+            top: 1.4rem;
+        }
+        h1{
+            text-align: center;
+            line-height: 4.5rem;
+            font-size: 1.5rem;
+        }
+    }
+    section{
+        background: #f7f7f7;
+        -webkit-box-flex: 1;
+        .list{
+            .whb(100%,auto,white);
+            dl{
+                    border-bottom: 1px solid beige;
+                    position: relative;
+                    padding: 1rem;
+                    dt{
+                        float: left;
+                        img{
+                            .whb(4rem,auto,none);
+                        }
+                    }
+                    dd{
+                        float: left;
+                        margin-left: 1.2rem;
+                        h3{
+                            font-size: 1.3rem;
+                            margin-bottom: 0.3rem;
+                        }
+                        p{
+                            font-size: 1.2rem; 
+                            color: #a3a3a3;   
+                        }
+                        span{
+                            font-size: 1.1rem;
+                            line-height: 4rem;
+                            color: #a3a3a3;
+                            position: absolute;
+                            right: 1rem;
+                            top: 1rem;
+                        }
+                    }
+                }
+        }
+    }
+}

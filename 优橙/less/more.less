@@ -1,0 +1,61 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.f(@f){
+    float: @f;   
+}
+.box(@to){
+    display: -webkit-box;
+    -webkit-box-orient: @to;
+}
+html,body,.boss{
+    .whb(100%,100%,null);
+}
+.boss{
+    .box(vertical);
+    background: #f7f7f7;
+    header{
+        .whb(100%,45px,none);
+        border-bottom: 1px solid #bfbfbf;
+        position: relative;
+        img{
+            .whb(10px,auto,none);
+            position: absolute;
+            left: 12px;
+            bottom: 14px;
+        }
+        h1{
+            font-size: 15px;
+            text-align: center;
+            line-height: 45px;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .about{
+            .whb(100%,40px,white);
+            border-bottom: 1px solid #f2f2f2;
+            h2{
+                line-height: 40px;
+                margin-left: 12px;
+                font-size: 13px;
+                float: left;
+            }
+            img{
+                .whb(9px,auto,null);
+                margin-right: 12px;
+                margin-top: 12px;
+                float: right;
+            }
+        }
+        .feedback{
+            margin-top: 10px;
+        }
+        .cut{
+            margin-top: 10px;
+        }
+    }
+}
