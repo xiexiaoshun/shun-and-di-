@@ -1,0 +1,213 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.boss {
+  width: 100%;
+  height: 100%;
+  background: null;
+}
+.boss {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boss header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid gainsboro;
+}
+.boss header .header_left {
+  position: absolute;
+  left: 1rem;
+  top: 1.4rem;
+}
+.boss header .header_left img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.boss header h1 {
+  text-align: center;
+  line-height: 4.5rem;
+  font-size: 1.5rem;
+}
+.boss header .header_right {
+  position: absolute;
+  right: 1rem;
+  top: 1.4rem;
+}
+.boss header .header_right img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.boss section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+  overflow-y: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
+}
+.boss section .order_main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0.8rem 0;
+}
+.boss section .order_main p {
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.boss section .order_main p i {
+  color: #ff7d1b;
+}
+.boss section .order_shop {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.boss section .order_shop h2 {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  padding-left: 1rem;
+  border-bottom: 1px solid beige;
+}
+.boss section .order_shop dl {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid beige;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss section .order_shop dl dt {
+  width: auto;
+  height: 7.5rem;
+  background: none;
+}
+.boss section .order_shop dl dt img {
+  width: auto;
+  height: 7.5rem;
+  background: none;
+}
+.boss section .order_shop dl dd {
+  -webkit-box-flex: 1;
+  margin-left: 0.8rem;
+}
+.boss section .order_shop dl dd .attr p {
+  font-size: 1rem;
+}
+.boss section .order_shop dl dd .attr p:nth-child(1) {
+  float: left;
+  color: #666666;
+  line-height: 1.8rem;
+  margin-top: 6px;
+}
+.boss section .order_shop dl dd .attr p:nth-child(2) {
+  float: right;
+  line-height: 1.4rem;
+}
+.boss section .order_shop h3 {
+  background: white;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+.boss section .order_shop h3 i {
+  color: #ff7d1b;
+}
+.boss section .order_rate {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.boss section .order_rate h6 {
+  line-height: 3rem;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid beige;
+}
+.boss section .order_rate .rate_info {
+  padding-top: 0.8rem;
+}
+.boss section .order_rate .rate_info .info {
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  color: #8c8c8c;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss section .order_rate .rate_info .info span {
+  display: block;
+  width: 6.5rem;
+  height: auto;
+  background: none;
+}
+.boss section .order_rate .rate_info .info p {
+  -webkit-box-flex: 1;
+  line-height: 2rem;
+}
+.boss section .order_rate .rate_info .remind p {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+.boss section .order_rate .rate_info .remind p img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.boss section .order_rate .rate_info .remind p i {
+  color: #ff7d1b;
+}
+.boss section .order_rate .agree_option {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  border-top: 1px solid beige;
+}
+.boss section .order_rate .agree_option span {
+  display: block;
+  width: 6rem;
+  height: 2rem;
+  background: none;
+  border: 1px solid #ff7d1b;
+  border-radius: 5px;
+  color: #ff7d1b;
+  line-height: 2rem;
+  text-align: center;
+  float: right;
+  margin-top: 0.4rem;
+}
+.boss section .order_rate .agree_option .span-own {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+.boss footer {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  border-top: 1px solid beige;
+}
+.boss footer span {
+  display: block;
+  width: 6rem;
+  height: 2rem;
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  line-height: 2rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+  float: right;
+}
