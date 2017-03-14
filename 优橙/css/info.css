@@ -1,0 +1,315 @@
+@import url("reset.css");
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.5rem;
+  background: 0;
+  border-bottom: 0.1rem solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+header .header_left {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_left img {
+  width: 0.9rem;
+  height: 1.5rem;
+  background: 0;
+}
+header .header_right {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_right img {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: 0;
+}
+header .header_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+section .main1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 0.6rem;
+  box-sizing: border-box;
+}
+section .main1 .img1 {
+  width: 100%;
+  height: 10.7rem;
+  background: none;
+}
+section .main1 .img1 img {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+section .main1 .img2 {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  border-radius: 2rem ;
+  position: absolute;
+  overflow: hidden;
+  top: 8rem;
+  left: 0.4rem;
+}
+section .main1 .img2 img {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+section .main1 .span1 {
+  position: absolute;
+  top: 9rem;
+  left: 5.4rem;
+  color: #fff;
+}
+section .main1 .p1 {
+  width: 100%;
+  height: 2rem;
+  background: none;
+  padding-left: 5.4rem;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  color: #CCCCCC;
+}
+section .main1 .p1 span {
+  float: right;
+  font-size: 1rem;
+  color: #118DFF;
+  margin-right: 1rem;
+}
+section .main1 .p2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 1.3rem;
+}
+section .main2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+section .main2 h2 {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+section .main2 .main3 {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+section .main2 .main3 .main33 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+section .main2 .main3 .main33 .main3_1 {
+  width: 2rem;
+  height: 2.5rem;
+  background: none;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+section .main2 .main3 .main33 .main3_1 img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+section .main2 .main3 .main33 .main3_2 {
+  -webkit-box-flex: 1;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+section .main2 .main3 .main33 .main3_3 {
+  width: 2rem;
+  height: 2.5rem;
+  background: none;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+section .main2 .main3 .main33 .main3_3 img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+section .main2 .main3 .main33 .main3_4 {
+  width: 2rem;
+  height: 2.5rem;
+  background: none;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+section .main2 .main3 .main33 .main3_4 img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+section .main4 {
+  width: 100%;
+  height: 2.5rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+section .main4 p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  float: left;
+}
+section .main4 .main4_r {
+  width: 2rem;
+  height: 2.5rem;
+  background: none;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+  float: right;
+}
+section .main4 .main4_r img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+section .main5 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+section .main5 h2 {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+section .main5 .main6 {
+  width: 100%;
+  height: 4.5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .main5 .main6 .main6_1 {
+  -webkit-box-flex: 1;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+section .main5 .main6 .main6_1 p {
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+}
+section .main5 .main6 .main6_2 {
+  width: 2.5rem;
+  height: 4.5rem;
+  background: none;
+  line-height: 4.5rem;
+}
+section .main5 .main6 .main6_2 img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+section .main7 {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+section .main8 {
+  width: 100%;
+  height: 10rem;
+  background: none;
+  display: none;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+section .main8 .main9 {
+  width: 100%;
+  height: 10rem;
+  background: none;
+}
+section .main8 .main9 .maint {
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+section .main8 .main9 .maint p {
+  width: 100%;
+  height: 3.2rem;
+  background: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+}
+section .main8 .main9 .maint p:nth-child(1) {
+  border-bottom: 0.1rem solid #ccc;
+}
+section .main8 .main9 .mainb {
+  width: 100%;
+  height: 3.2rem;
+  background: #ffffff;
+  margin-top: 0.3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+}
