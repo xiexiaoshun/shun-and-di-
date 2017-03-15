@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优橙-店铺装修1</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/fitment1.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+	</head>
+	<body>
+		<div class="boss">
+			<header>
+				<div class="header_left"><img src="img/notice_03.png"></div>
+				<h1>装修店铺</h1>
+				<div class="header_right"><span>保存</span><span>取消</span></div>
+			</header>
+			<nav>
+				<!-- Swiper -->
+				<div class="nav_info">
+				    <div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide change"><h5>81</h5><h6>查看全部</h6><span></span></div>
+				            <div class="swiper-slide"><h5>12</h5><h6>上架商品</h6><span></span></div>
+				            <div class="swiper-slide"><h5>23</h5><h6>库存商品</h6><span></span></div>
+				            <div class="swiper-slide"><h5>12</h5><h6>待审核商品</h6><span></span></div>
+				            <div class="swiper-slide"><h5>1</h5><h6>售后中</h6><span></span></div>
+				            <div class="swiper-slide"><h5>33</h5><h6>已完成</h6><span></span></div>
+				        </div>
+				    </div>
+			    </div>
+			    <div class="pull">
+					<img src="img/fit.png">
+				</div>
+			</nav>
+			<section>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span>已置顶</span><span class="span-one">上架中</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span class="span-two">库存中</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span class="span-three">未置顶</span><span class="span-one">上架中</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span class="span-four">待审核</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span class="span-five">草稿箱</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!--遮罩层-->
+				<div class="shade_big"></div>
+				<div class="shade_small">
+					<div class="confirm">
+						<div class="confirm_top"><h6>确认将全部库存商品上架吗？</h6></div>
+						<div class="confirm_down"><span>取消</span><span>确认</span></div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<ul>
+					<li><img src="img/fit_02.png">一键上架</li>
+					<li><img src="img/fit_01.png">一键下架</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<!--导航栏-->
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        slidesPerView: 3.5,
+	        paginationClickable: true,
+	        freeMode: true
+	    });
+	    $(function(){
+			$('footer ul li:first').click(function(){
+				$('.shade_big').show();
+				$('.shade_small').show();
+			});
+			$('section .shade_small span:first').click(function(){
+				$('.shade_big').hide();
+				$('.shade_small').hide();
+			});
+		});
+	</script>
+</html>

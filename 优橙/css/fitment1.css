@@ -1,0 +1,289 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.boss {
+  width: 100%;
+  height: 100%;
+  background: null;
+}
+.boss {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boss header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid gainsboro;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss header .header_left {
+  width: 18%;
+  height: auto;
+  background: none;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+}
+.boss header .header_left img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.boss header h1 {
+  -webkit-box-flex: 1;
+  font-size: 1.5rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+.boss header .header_right {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+}
+.boss header .header_right span {
+  margin-right: 1rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+}
+.boss nav {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-bottom: 1px solid gainsboro;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss nav .nav_info {
+  -webkit-box-flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss nav .nav_info .swiper-slide {
+  text-align: center;
+  position: relative;
+}
+.boss nav .nav_info .swiper-slide h5 {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  margin-top: 4px;
+}
+.boss nav .nav_info .swiper-slide h6 {
+  font-size: 1.3rem;
+}
+.boss nav .nav_info .swiper-slide span {
+  display: none;
+  width: 100%;
+  height: 1px;
+  background: #ff7f1c;
+  position: absolute;
+  bottom: -5px;
+}
+.boss nav .nav_info .change {
+  color: #ff7f1c;
+}
+.boss nav .nav_info .change span {
+  display: block;
+}
+.boss nav .nav_info li {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.boss nav .nav_info li h5 {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  margin-top: 4px;
+}
+.boss nav .nav_info li h6 {
+  font-size: 1.3rem;
+}
+.boss nav .pull {
+  width: 4.5rem;
+  height: auto;
+  background: none;
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 4rem;
+}
+.boss nav .pull img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.boss section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
+}
+.boss section .fit_shop {
+  width: 100%;
+  height: 9rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.boss section .fit_shop dl {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid beige;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss section .fit_shop dl dt {
+  width: auto;
+  height: 7.5rem;
+  background: none;
+}
+.boss section .fit_shop dl dt img {
+  width: auto;
+  height: 7.5rem;
+  background: none;
+}
+.boss section .fit_shop dl dd {
+  -webkit-box-flex: 1;
+  margin-left: 0.8rem;
+}
+.boss section .fit_shop dl dd .attr p {
+  font-size: 1.2rem;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(1) {
+  float: left;
+  margin-top: 7px;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(1) b {
+  color: #fb7b18;
+  line-height: 1.8rem;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(1) em {
+  color: #636363;
+  font-size: 1rem;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) {
+  float: right;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) span {
+  display: block;
+  width: 4.3rem;
+  height: 1.8rem;
+  background: #fb7b18;
+  border: 1px solid #fb7b18;
+  line-height: 1.8rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: white;
+  float: right;
+  margin-top: 2rem;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) .span-one {
+  margin-right: 0.6rem;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) .span-two {
+  background: white;
+  color: #fb7b18;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) .span-three {
+  background: white;
+  color: #fb7b18;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) .span-four {
+  background: white;
+  border: 1px solid #939393;
+  color: #939393;
+}
+.boss section .fit_shop dl dd .attr p:nth-child(2) .span-five {
+  background: white;
+  border: 1px solid #218bc9;
+  color: #218bc9;
+}
+.boss section .shade_big {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.4;
+}
+.boss section .shade_small {
+  width: 100%;
+  height: 11.5rem;
+  background: none;
+  display: none;
+  padding: 0 5.5rem;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0rem;
+  top: 38%;
+}
+.boss section .shade_small .confirm {
+  width: 100%;
+  height: 11.5rem;
+  background: #ffffff;
+  border-radius: 0.8rem;
+}
+.boss section .shade_small .confirm .confirm_top {
+  width: 100%;
+  height: 7.5rem;
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+.boss section .shade_small .confirm .confirm_top h6 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 4rem;
+}
+.boss section .shade_small .confirm .confirm_down {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss section .shade_small .confirm .confirm_down span {
+  -webkit-box-flex: 1;
+  display: block;
+  color: #1c83ff;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.4rem;
+}
+.boss section .shade_small .confirm .confirm_down span:nth-child(1) {
+  border-right: 1px solid #e1e1e1;
+}
+.boss footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-top: 1px solid gainsboro;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss footer ul {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss footer ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 1.3rem;
+  border-right: 1px solid gainsboro;
+}
+.boss footer ul li img {
+  width: 1.8rem;
+  height: auto;
+  background: none;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+.boss footer ul li:nth-child(2) {
+  border: none;
+}

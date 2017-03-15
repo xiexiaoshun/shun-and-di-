@@ -1,0 +1,129 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.boss {
+  width: 100%;
+  height: 100%;
+  background: null;
+}
+.boss {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.boss header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid gainsboro;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.boss header .header_left {
+  width: 18%;
+  height: auto;
+  background: none;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+}
+.boss header .header_left img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.boss header h1 {
+  -webkit-box-flex: 1;
+  font-size: 1.6rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+.boss header .header_right {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+}
+.boss header .header_right span {
+  margin-right: 1rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+}
+.boss section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
+}
+.boss section .main_img {
+  width: 100%;
+  height: 20rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.boss section .main_img h2 {
+  line-height: 3rem;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.boss section .main_img img {
+  width: 100%;
+  height: 17rem;
+  background: none;
+}
+.boss section .next_img {
+  width: 100%;
+  height: 26rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.boss section .next_img h3 {
+  line-height: 3rem;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.boss section .next_img img {
+  width: 100%;
+  height: 20rem;
+  background: none;
+}
+.boss section .next_img h4 {
+  line-height: 2.4rem;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.boss section .shade_big {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.4;
+}
+.boss section .shade_small {
+  width: 100%;
+  height: 9rem;
+  background: none;
+  display: none;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+}
+.boss section .shade_small .warp {
+  padding: 0 1rem;
+}
+.boss section .shade_small .warp button {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}

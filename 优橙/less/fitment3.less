@@ -1,0 +1,100 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.f(@f){
+    float: @f;   
+}
+.box(@to){
+    display: -webkit-box;
+    -webkit-box-orient: @to;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,.boss{
+    .whb(100%,100%,null);
+}
+.boss{
+    .box(vertical);
+    position: relative;
+    header{
+        .whb(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid gainsboro;
+        .box(horizontal);
+        .header_left{
+            .whb(18%,auto,none);
+            margin-left: 1rem;
+            margin-top: 1.4rem;
+            img{
+                .whb(1rem,auto,none);
+            }
+        }
+        h1{
+            -webkit-box-flex: 1;
+            font-size: 1.6rem;
+            line-height: 4.5rem;
+            text-align: center;
+        }
+        .header_right{
+            .whb(7.5rem,auto,none);
+            span{
+                margin-right: 1rem;
+                line-height: 4.5rem;
+                font-size: 1.3rem;
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f3f3f3;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;};
+        .fit_search{
+            .whb(100%,4rem,white);
+            position: relative;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid beige;
+            input{
+                .whb(100%,3rem,#e4e4e4);
+                margin: 0.5rem 0;
+                border: none;
+                outline: none;
+                border-radius: 0.5rem;
+                padding-left: 3.5rem;
+                box-sizing: border-box;
+            }
+            img{
+                .whb(1.6rem,auto,none);
+                position: absolute;
+                top: 1.2rem;
+                left: 2rem;
+            }
+        }
+        dl{
+            background: white;
+            padding: 0.8rem 1rem;
+            margin-bottom: 0.5rem;
+            .box(horizontal);
+            dt{
+                .whb(7.5rem,7.5rem,none);
+                img{
+                    .whb(7.5rem,auto,none);
+                }
+            }
+            dd{
+                -webkit-box-flex: 1;
+                margin-left: 1rem;
+                span{
+                    color: #ff7f1d;
+                    float: right;
+                    margin-top: 2rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

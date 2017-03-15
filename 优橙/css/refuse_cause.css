@@ -67,7 +67,7 @@ body,
 }
 .boss section .upload .load {
   width: 7rem;
-  height: auto;
+  height: 7rem;
   background: none;
   border: 1px solid black;
   border-radius: 0.8rem;
@@ -76,13 +76,13 @@ body,
 }
 .boss section .upload .load img {
   width: 7rem;
-  height: auto;
+  height: 7rem;
   background: none;
   border-radius: 0.8rem;
 }
 .boss section .upload .unload {
   width: 7rem;
-  height: auto;
+  height: 7rem;
   background: #f2f2f2;
   border: 1px solid black;
   border-radius: 0.8rem;

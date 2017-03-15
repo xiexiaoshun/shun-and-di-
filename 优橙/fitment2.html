@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优橙-店铺装修2</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/fitment2.css">
+	</head>
+	<body>
+		<div class="boss">
+			<header>
+				<div class="header_left"><img src="img/notice_03.png"></div>
+				<h1>装修店铺</h1>
+				<div class="header_right"><span>保存</span><span>取消</span></div>
+			</header>
+			<section>
+				<div class="main_img">
+					<h2>店铺背景图</h2>
+					<img src="img/fit_06.png">
+				</div>
+				<div class="next_img">
+					<h3>轮播图一</h3>
+					<img src="img/fit_05.png">
+					<h4>关联产品：【无产品】</h4>
+				</div>
+				<div class="next_img">
+					<h3>轮播图二</h3>
+					<img src="img/fit_05.png">
+					<h4>关联产品：【无产品】</h4>
+				</div>
+				<!--遮罩层-->
+				<div class="shade_big"></div>
+				<div class="shade_small">
+					<div class="warp">
+						<button>更换店铺背景图</button>
+						<button>取消</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('section .main_img img').click(function(){
+				$('.shade_big').show();
+				$('.shade_small').show();
+			});
+			$('section .warp button:eq(1)').click(function(){
+				$('.shade_big').hide();
+				$('.shade_small').hide();
+			});
+		});
+	</script>
+</html>

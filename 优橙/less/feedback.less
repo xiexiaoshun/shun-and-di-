@@ -1,0 +1,72 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.f(@f){
+    float: @f;   
+}
+.box(@to){
+    display: -webkit-box;
+    -webkit-box-orient: @to;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,.boss{
+    .whb(100%,100%,null);
+}
+.boss{
+    .box(vertical);
+    header{
+        .whb(100%,4.5rem,#f7f7f7);
+        .box(horizontal);
+        border-bottom: 1px solid gainsboro;
+        position: relative;
+        .header_left{
+            position: absolute;
+            left: 1rem;
+            top: 1.2rem;
+            img{
+                .whb(1rem,auto,none);
+            }
+        }
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 4.5rem;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f2f2f2;
+        padding: 0 1rem;
+        h2{
+            line-height: 3rem;
+            color: #666666;
+            font-size: 1.3rem;
+        }
+        .txt{
+            .whb(100%,15rem,white);
+            border: 1px solid gainsboro;
+            border-radius: 0.8rem;
+            input{
+                .whb(100%,15rem,white);
+                border-radius: 0.8rem;
+                border: none;
+                outline: none;
+            }
+        }
+        button{
+            .whb(100%,3rem,#ff7f1c);
+            margin-top: 2rem;
+            border-radius: 0.5rem;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 1.4rem;
+        }
+    }
+}
