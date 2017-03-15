@@ -7,6 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/myorder.css">
 		<link rel="stylesheet" href="css/swiper.min.css">
+		<script src="js/angular.js" charset="utf-8"></script>
+		<script src="js/angular-route.min.js" charset="utf-8"></script>
+		<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+		<script src="js/lou.js" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="boss">
@@ -109,7 +113,30 @@
 						</div>
 					</div>
 				</section>
+				
 			</div>
+			<footer>
+				<dl ui-sref="index">
+					<dt><img src="img/index_16_03.png"></dt>
+					<dd>首页</dd>
+				</dl>
+				<dl ui-sref="orange_help">
+					<dt><img src="img/index_21.png"></dt>
+					<dd>优橙协助</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/index_11.png"></dt>
+					<dd></dd>
+				</dl>
+				<dl ui-sref="myorder">
+					<dt><img src="img/index_17.png"></dt>
+					<dd>订单状态</dd>
+				</dl>
+				<dl ui-sref="mystore">
+					<dt><img src="img/index_20.png"></dt>
+					<dd>我的店铺</dd>
+				</dl>
+			</footer>
 		</div>
 	</body>
 	<script src="js/jquery-3.1.1.js"></script>
