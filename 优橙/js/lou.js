@@ -2,13 +2,12 @@ var myDiv = angular.module("myapp", ['ui.router']);
 myDiv.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		//店铺
-		.state("dian", {
-			url: 'dian',
+		.state("mystore", {
+			url: 'mystore',
 			views: {
 				"main": {
-					templateUrl: "myorder.html"
+					templateUrl: "mystore.html"
 				}
-			}
+			} 
 		});
-		//
 }]);
