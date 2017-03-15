@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/dataSave_sex.css"/>
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="header_left">
+					<img src="img/1_03.jpg"/>
+				</div>
+				<div class="header_center">
+					用户性别
+				</div>
+				<div class="header_right">
+					保存
+				</div>
+			</header>
+			<section>
+				<div class="main1">
+					<div class="main1_1">
+						<p class="p1">男<span><img src="img/9-1_03.jpg"/></span></p>
+					</div>
+					<div class="main1_2">
+						<p class="p2">女<span><img src="img/9-1_03.jpg"/></span></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$(".p1").click(function(){
+				$(".p1>span>img").show();
+				$(".p2>span>img").hide();
+//				$(".p1>span>img").toggle();
+			})
+			$(".p2").click(function(){
+				$(".p2>span>img").show();
+				$(".p1>span>img").hide();
+//				$(".p2>span>img").toggle();
+			})
+		})
+	</script>
+</html>

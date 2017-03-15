@@ -1,0 +1,135 @@
+@import url("reset.css");
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.5rem;
+  background: 0;
+  border-bottom: 0.1rem solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+header .header_left {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_left img {
+  width: 0.9rem;
+  height: 1.5rem;
+  background: 0;
+}
+header .header_right {
+  width: 3.2rem;
+  height: 3.5rem;
+  background: 0;
+  text-align: center;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+header .header_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section .main1 {
+  width: 100%;
+  height: 2rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 6rem;
+}
+section .main1 p {
+  width: 100%;
+  height: 2rem;
+  background: none;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+section .main1 p span {
+  width: 1rem;
+  height: 0.9rem;
+  background: none;
+  display: inline-block;
+  line-height: 1rem;
+  border: 0.1rem solid #000000;
+  margin-right: 0.5rem;
+}
+section .main2 {
+  width: 100%;
+  height: 2.4rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+section .main2 button {
+  width: 100%;
+  height: 2.4rem;
+  background: #ff7813;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  border: none;
+}
+section .main3 {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+section .main4 {
+  width: 100%;
+  height: 10rem;
+  background: none;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  padding: 0 4rem;
+  box-sizing: border-box;
+  display: none;
+}
+section .main4 .main41 {
+  width: 100%;
+  height: 10rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+section .main4 .main41 p:nth-child(1) {
+  width: 100%;
+  height: 6.9rem;
+  background: none;
+  border-bottom: 0.1rem solid #BEBEBE;
+  line-height: 6.9rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+section .main4 .main41 p:nth-child(2) {
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #118DFF;
+}

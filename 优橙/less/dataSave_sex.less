@@ -1,0 +1,97 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html,body,#wrap{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    font-size: 62.5%;
+    overflow:hidden;
+}
+#wrap{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+header{
+    .whb(100%,3.5rem,#F7F7F7);
+    border-bottom: 0.1rem solid #bfbfbf;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    .header_left{
+        .whb(3.2rem,3.5rem,0);
+        text-align: center;
+        padding-top: 1rem;
+        box-sizing: border-box;
+        img{
+            .whb(0.9rem,1.5rem,0);
+        }
+    }
+    .header_right{
+        .whb(3.5rem,3.5rem,0);
+        text-align: center;
+        line-height: 3.5rem;
+        font-size: 1.4rem;
+        box-sizing: border-box;
+    }
+    .header_center{
+        -webkit-box-flex: 1;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    .main1{
+        .whb(100%,5rem,#fff);
+        margin-top: 0.5rem;
+        .main1_1{
+            .whb(100%,2.4rem,none);
+            border-bottom: 0.1rem solid #F3F3F3;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            p{
+                .whb(100%,2.4rem,none);
+                line-height: 2.4rem;
+                font-size: 1.2rem;
+                span{
+                    display: inline-block;
+                    .whb(2.4rem,2.4rem,none);
+                    float: right;
+                    text-align: right;
+                    padding-top: 0.3rem;
+                    box-sizing: border-box;
+                    img{
+                        .whb(1.4rem,1.4rem,none);
+                        display: none;
+                    }
+                }
+            }
+        }
+        .main1_2{
+            .whb(100%,2.4rem,none);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            p{
+                .whb(100%,2.4rem,none);
+                line-height: 2.4rem;
+                font-size: 1.2rem;
+                span{
+                    display: inline-block;
+                    .whb(2.4rem,2.4rem,none);
+                    float: right;
+                    text-align: right;
+                    padding-top: 0.3rem;
+                    box-sizing: border-box;
+                    img{
+                        .whb(1.4rem,1.4rem,none);
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

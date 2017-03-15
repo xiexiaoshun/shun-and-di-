@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/signed.css"/>
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="header_left">
+					<img src="img/1_03.jpg"/>
+				</div>
+				<div class="header_center">
+					签约说明
+				</div>
+				<div class="header_right">
+					
+				</div>
+			</header>
+			<section>
+				<div class="main1">
+					<p><span>√</span>我已经仔细阅读此条款</p>
+				</div>
+				<div class="main2">
+					<button>我想签约</button>
+				</div>
+				<div class="main3">
+					
+				</div>
+				<div class="main4">
+					<div class="main41">
+						<p>优橙客服会在5个工作日内联系您！</p>
+						<p class="pp">好的</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$(".main2>button").click(function(){
+				$(".main3").css("display","block");
+				$(".main4").css("display","block");
+			});
+			$(".pp").click(function(){
+				$(".main3").css("display","none");
+				$(".main4").css("display","none");
+			})
+		})
+	</script>
+</html>

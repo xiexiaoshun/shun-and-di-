@@ -1,0 +1,102 @@
+@import url("reset.css");
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html,body,#wrap{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    font-size: 62.5%;
+    overflow:hidden;
+}
+#wrap{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+header{
+    .whb(100%,3.5rem,#F7F7F7);
+    border-bottom: 0.1rem solid #bfbfbf;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    .header_left{
+        .whb(3.2rem,3.5rem,0);
+        text-align: center;
+        padding-top: 1rem;
+        box-sizing: border-box;
+        img{
+            .whb(0.9rem,1.5rem,0);
+        }
+    }
+    .header_right{
+        .whb(3.5rem,3.5rem,0);
+        text-align: center;
+        line-height: 3.5rem;
+        font-size: 1.4rem;
+        box-sizing: border-box;
+    }
+    .header_center{
+        -webkit-box-flex: 1;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    .main1{
+        .whb(100%,auto,#fff);
+        .main1_1{
+            .whb(100%,3.3rem,none);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            border-top: 0.1rem solid #F2F2F2;
+            p:nth-child(1){
+                -webkit-box-flex: 1;
+                line-height: 3.3rem;
+                font-size: 1.4rem;
+            }
+            p:nth-child(2){
+                .whb(2rem,3.3rem,none);
+                text-align: right;
+                padding-top: 1rem;
+                box-sizing: border-box;
+                img{
+                    .whb(1.4rem,auto,none);
+                }
+            }
+        }
+    }
+    .main2{
+        .whb(100%,auto,none);
+        padding: 0 1rem;
+        box-sizing: border-box;
+        margin-top: 1.5rem;
+        color: #B4B4B4;
+        h3{
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+        p{
+            line-height: 1.6rem;
+            font-size: 1.2rem;
+        }
+    }
+    .main3{
+        .whb(100%,2.4rem,none);
+        padding: 0 1rem;
+        box-sizing: border-box;
+        margin-top: 1.5rem;
+        button{
+            .whb(100%,2.4rem,#FF7E1C);
+            border: none;
+            outline: none;
+            border-radius: 0.5rem;
+            font-size: 1.6rem;
+            color: #fff;
+        }
+    }
+}

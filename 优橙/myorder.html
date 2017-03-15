@@ -112,6 +112,7 @@
 			</div>
 		</div>
 	</body>
+	<script src="js/jquery-3.1.1.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script type="text/javascript">
 		var swiper = new Swiper('.swiper-container', {
@@ -120,5 +121,17 @@
 	        paginationClickable: true,
 	        freeMode: true
 	    });
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			$('.pull img').click(function(){
+				$('.shade_big').show();
+				$('.shade_small').show();
+			});
+			$('.shade_small .order_option img').click(function(){
+				$('.shade_big').hide();
+				$('.shade_small').hide();
+			});
+		});
 	</script>
 </html>
