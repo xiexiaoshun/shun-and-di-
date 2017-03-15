@@ -8,13 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/index.css">
 	<!--<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>-->
-	<script src="js/angular.js" charset="utf-8"></script>
-	<script src="js/angular-route.min.js" charset="utf-8"></script>
-	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
-	<script src="js/lou.js" charset="utf-8"></script>
 </head>
-<body>
-	<div class="boss" ui-view="main">
+<body ui-view>
+	<div class="boss">
 		<header><img src="img/index_01.png"><h1>优橙设计师移动工作台</h1></header>
 		<nav>
 			<div class="nav">
@@ -114,11 +110,11 @@
 			</div>
 		</section>
 		<footer>
-			<dl>
+			<dl ui-sref="index">
 				<dt><img src="img/index_16_03.png"></dt>
 				<dd>首页</dd>
 			</dl>
-			<dl>
+			<dl ui-sref="orange_help">
 				<dt><img src="img/index_21.png"></dt>
 				<dd>优橙协助</dd>
 			</dl>
@@ -126,7 +122,7 @@
 				<dt><img src="img/index_11.png"></dt>
 				<dd></dd>
 			</dl>
-			<dl>
+			<dl ui-sref="myorder">
 				<dt><img src="img/index_17.png"></dt>
 				<dd>订单状态</dd>
 			</dl>
@@ -137,4 +133,8 @@
 		</footer>
 	</div>
 </body>
+<script src="js/angular.js" charset="utf-8"></script>
+	<script src="js/angular-route.min.js" charset="utf-8"></script>
+	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+	<script src="js/lou.js" charset="utf-8"></script>
 </html>
