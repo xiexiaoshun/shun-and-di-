@@ -11,7 +11,7 @@
 </head>
 <body ui-view>
 	<div class="boss">
-		<header><img src="img/index_01.png"><h1>优橙设计师移动工作台</h1></header>
+		<header><img src="img/index_01.png" ui-sref="more"><h1>优橙设计师移动工作台</h1></header>
 		<nav>
 			<div class="nav">
 				<div class="nav_left"><div class="circle"><img src="img/index_02.png"></div><h5>Eminem</h5></div>
@@ -20,7 +20,7 @@
 						<p>XXXX北京旗舰店<span>优橙签约</span></p>
 						<p>店铺状态：停业</p>
 					</div>
-					<div class="call"><img src="img/back.png"></div>
+					<div class="call" ui-sref="info"><img src="img/back.png"></div>
 				</div>
 			</div>
 		</nav>
@@ -29,11 +29,11 @@
 				<h2>开始工作 <i>Start-up</i></h2>
 				<div class="list">
 					<div class="branch">
-						<dl>
+						<dl ui-sref="fans">
 							<dt><img src="img/index_06.png"></dt>
 							<dd><h5>粉丝</h5><h6>120</h6></dd>
 						</dl>
-						<dl>
+						<dl ui-sref="fitment1">
 							<dt><img src="img/index_05.png"></dt>
 							<dd><h5>上架商品</h5><h6>86</h6></dd>
 						</dl>
@@ -49,11 +49,11 @@
 						</dl>
 					</div>
 					<div class="branch">
-						<dl>
+						<dl ui-sref="money">
 							<dt><img src="img/index_25_03.png"></dt>
 							<dd><h5>财务管理</h5><h6>我的钱包、资金明细</h6></dd>
 						</dl>
-						<dl>
+						<dl ui-sref="reviews">
 							<dt><img src="img/index_13.png"></dt>
 							<dd><h5>评论管理</h5><h6>及时回复客户评论</h6></dd>
 						</dl>
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="news">
-				<div class="title">
+				<div class="title" ui-sref="notice">
 					<h3><img src="img/index_12.png">消息箱（39）</h3>
 					<span><img src="img/back.png"></span>
 				</div> 
@@ -134,7 +134,7 @@
 	</div>
 </body>
 <script src="js/angular.js" charset="utf-8"></script>
-	<script src="js/angular-route.min.js" charset="utf-8"></script>
-	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
-	<script src="js/lou.js" charset="utf-8"></script>
+<script src="js/angular-route.min.js" charset="utf-8"></script>
+<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+<script src="js/lou.js" charset="utf-8"></script>
 </html>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="css/orange_help.css"/>
 	</head>
-	<body>
+	<body ui-view>
 		<div id="wrap">
 			<header>
 				<div class="header_left" ui-sref="index">
 					<img src="img/1_03.jpg"/>
-				</div>
+				</div>                                                                    
 				<div class="header_center">
 					优橙协助
 				</div>
@@ -78,7 +78,7 @@
 					</div>
 				</div>
 				<div class="main3">
-					<div class="main3_left">
+					<div class="main3_left" ui-sref="save_address">
 						<div class="div4"><img src="img/7_03.jpg"/><p>收货人：<span>jason</span><span>18348758872</span></p></div>
 						<div class="div5"><img src="img/7_06.jpg"/><p>收货地址：<span>北京市海淀区岳各庄</span></p></div>
 					</div>

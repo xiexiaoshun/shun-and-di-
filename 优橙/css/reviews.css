@@ -16,11 +16,12 @@ body,
   height: 45px;
   background: none;
   border-bottom: 1px solid #d9d9d9;
+  position: relative;
 }
 .boss header .header_left {
   position: absolute;
   left: 12px;
-  top: 12px;
+  top: -3px;
 }
 .boss header .header_left img {
   width: 20px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 	<head>
 		<meta charset="UTF-8">
 		<title>优橙-我的店铺</title>
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/mystore.css">
 		
 	</head>
-	<body>
+	<body ui-view>
 		<div class="boss">
 			<header>
 				<div class="store_left"><img src="img/1_03.jpg"></div>
@@ -49,7 +49,7 @@
 					<dt><img src="img/index_17.png"></dt>
 					<dd>订单状态</dd>
 				</dl>
-				<dl ui-sref="mystore">
+				<dl>
 					<dt><img src="img/index_20.png"></dt>
 					<dd>我的店铺</dd>
 				</dl>

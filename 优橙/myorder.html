@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 	<head>
 		<meta charset="UTF-8">
 		<title>优橙-我的商品订单</title>
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/myorder.css">
 		<link rel="stylesheet" href="css/swiper.min.css">
 	</head>
-	<body>
+	<body ui-view>
 		<div class="boss">
 			<header>
 				<div class="order_left"><img src="img/1_03.jpg"></div>
@@ -138,9 +138,9 @@
 	<script src="js/jquery-3.1.1.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/angular.js" charset="utf-8"></script>
-		<script src="js/angular-route.min.js" charset="utf-8"></script>
-		<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
-		<script src="js/lou.js" charset="utf-8"></script>
+	<script src="js/angular-route.min.js" charset="utf-8"></script>
+	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+	<script src="js/lou.js" charset="utf-8"></script>
 	<script type="text/javascript">
 		var swiper = new Swiper('.swiper-container', {
 	        pagination: '.swiper-pagination',
