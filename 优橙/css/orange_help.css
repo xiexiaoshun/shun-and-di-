@@ -8,37 +8,40 @@ body,
   font-size: 62.5%;
   overflow: hidden;
 }
+html {
+  font-size: 62.5%;
+}
 #wrap {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
 header {
   width: 100%;
-  height: 3.5rem;
+  height: 4rem;
   background: #f7f7f7;
-  border-bottom: 0.1rem solid #bfbfbf;
+  border-bottom: 0.1rem solid gainsboro;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
 header .header_left {
   width: 3.2rem;
-  height: 3.5rem;
+  height: 4rem;
   background: 0;
   text-align: center;
   padding-top: 1rem;
   box-sizing: border-box;
 }
 header .header_left img {
-  width: 0.9rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: auto;
   background: 0;
 }
 header .header_right {
   width: 3.2rem;
-  height: 3.5rem;
+  height: 4rem;
   background: 0;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   box-sizing: border-box;
 }
 header .header_right img {
@@ -50,7 +53,7 @@ header .header_center {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 1.6rem;
-  line-height: 3.5rem;
+  line-height: 4rem;
 }
 section {
   -webkit-box-flex: 1;
@@ -61,12 +64,12 @@ section::-webkit-scrollbar {
 }
 section .main1 {
   width: 100%;
-  height: 1.8rem;
+  height: 2rem;
   background: none;
   padding-left: 1rem;
   box-sizing: border-box;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
 }
 section .main1 span {
   color: #FF7813;
@@ -242,7 +245,7 @@ section .main2 .main2_6 .add {
   float: left;
   position: relative;
   text-align: center;
-  line-height: 7.2rem;
+  line-height: 6rem;
   font-size: 7rem;
   color: #BEBEBE;
 }
@@ -318,7 +321,7 @@ section .main3 .main3_right img {
 }
 footer {
   width: 100%;
-  height: 4.2rem;
+  height: 4rem;
   background: #ffffff;
   display: -webkit-box;
   -webkit-box-orient: horizontal;

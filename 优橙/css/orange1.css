@@ -4,85 +4,85 @@ html {
 }
 html,
 body,
-.boss {
+.boss_orange {
   width: 100%;
   height: 100%;
   background: null;
 }
-.boss {
+.boss_orange {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   position: relative;
 }
-.boss header {
+.boss_orange header {
   width: 100%;
   height: 4.5rem;
   background: #f7f7f7;
   border-bottom: 1px solid gainsboro;
 }
-.boss header .header_left {
+.boss_orange header .header_left {
   position: absolute;
   left: 1rem;
   top: 1.4rem;
 }
-.boss header .header_left img {
-  width: 1rem;
+.boss_orange header .header_left img {
+  width: 0.9rem;
   height: auto;
   background: none;
 }
-.boss header h1 {
+.boss_orange header h1 {
   text-align: center;
   line-height: 4.5rem;
   font-size: 1.5rem;
 }
-.boss header .header_right {
+.boss_orange header .header_right {
   position: absolute;
   right: 1rem;
   top: 1.4rem;
 }
-.boss header .header_right img {
+.boss_orange header .header_right img {
   width: 2rem;
   height: auto;
   background: none;
 }
-.boss section {
+.boss_orange section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
 }
-.boss section .orange_main1 {
+.boss_orange section .orange_main1 {
   width: 100%;
   height: 5rem;
   background: #ffffff;
 }
-.boss section .orange_main1 p {
+.boss_orange section .orange_main1 p {
   font-size: 1.3rem;
   line-height: 1.8rem;
   padding-top: 0.5rem;
 }
-.boss section .orange_main1 p img {
+.boss_orange section .orange_main1 p img {
   width: auto;
   height: 1.4rem;
   background: none;
   vertical-align: middle;
   margin: -0.4rem 1rem 0 1.6rem;
 }
-.boss section .orange_main2 {
+.boss_orange section .orange_main2 {
   width: 100%;
   height: auto;
   background: #ffffff;
   margin-top: 0.5rem;
 }
-.boss section .orange_main2 .depict {
+.boss_orange section .orange_main2 .depict {
   width: 100%;
   height: 3.5rem;
   background: #ffffff;
   line-height: 3.5rem;
 }
-.boss section .orange_main2 .depict p {
+.boss_orange section .orange_main2 .depict p {
   margin-left: 1rem;
   border-bottom: 1px solid beige;
 }
-.boss section .orange_main2 .depict1 {
+.boss_orange section .orange_main2 .depict1 {
   width: 100%;
   height: 5rem;
   background: #ffffff;
@@ -90,7 +90,7 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .orange_main2 .depict1 span {
+.boss_orange section .orange_main2 .depict1 span {
   display: block;
   width: 6.3rem;
   height: auto;
@@ -98,57 +98,57 @@ body,
   margin-left: 1rem;
   margin-top: 0.8rem;
 }
-.boss section .orange_main2 .depict1 p {
+.boss_orange section .orange_main2 .depict1 p {
   -webkit-box-flex: 1;
   line-height: 2rem;
   margin-right: 1.6rem;
   margin-top: 0.6rem;
 }
-.boss section .orange_main2 .doc {
+.boss_orange section .orange_main2 .doc {
   width: 100%;
   height: 14rem;
   background: none;
 }
-.boss section .orange_main2 .doc p {
+.boss_orange section .orange_main2 .doc p {
   line-height: 3.5rem;
   margin-left: 1rem;
 }
-.boss section .orange_main2 .doc ul {
+.boss_orange section .orange_main2 .doc ul {
   margin-top: 0.5rem;
   margin-left: 1rem;
   border-bottom: 1px solid beige;
 }
-.boss section .orange_main2 .doc ul li {
+.boss_orange section .orange_main2 .doc ul li {
   float: left;
   margin-right: 1.5rem;
 }
-.boss section .orange_main2 .doc ul li img {
+.boss_orange section .orange_main2 .doc ul li img {
   width: 8rem;
   height: auto;
   background: none;
   margin-bottom: 1.5rem;
 }
-.boss section .orange_main2 .money {
+.boss_orange section .orange_main2 .money {
   width: 100%;
   height: 6rem;
   background: #ffffff;
 }
-.boss section .orange_main2 .money .mon {
+.boss_orange section .orange_main2 .money .mon {
   margin: 0 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
   color: #a5a5a5;
 }
-.boss section .orange_main2 .money .mon span {
+.boss_orange section .orange_main2 .money .mon span {
   float: left;
 }
-.boss section .orange_main2 .money .mon b {
+.boss_orange section .orange_main2 .money .mon b {
   float: right;
 }
-.boss section .orange_main2 .money .addmoney {
+.boss_orange section .orange_main2 .money .addmoney {
   color: #ff8739;
 }
-.boss section .orange_big {
+.boss_orange section .orange_big {
   width: 100%;
   height: 100%;
   background: #919191;
@@ -158,7 +158,7 @@ body,
   top: 0px;
   opacity: 0.4;
 }
-.boss section .orange_tel {
+.boss_orange section .orange_tel {
   width: 100%;
   height: 11.5rem;
   background: none;
@@ -169,32 +169,32 @@ body,
   left: 0rem;
   top: 45%;
 }
-.boss section .orange_tel .tel {
+.boss_orange section .orange_tel .tel {
   width: 100%;
   height: 11.5rem;
   background: #ffffff;
   border-radius: 0.8rem;
 }
-.boss section .orange_tel .tel .tel_top {
+.boss_orange section .orange_tel .tel .tel_top {
   width: 100%;
   height: 7.5rem;
   background: none;
   border-bottom: 1px solid #e1e1e1;
 }
-.boss section .orange_tel .tel .tel_top h6 {
+.boss_orange section .orange_tel .tel .tel_top h6 {
   font-size: 1.4rem;
   text-align: center;
   padding-top: 2rem;
   line-height: 2.2rem;
 }
-.boss section .orange_tel .tel .tel_down {
+.boss_orange section .orange_tel .tel .tel_down {
   width: 100%;
   height: 4rem;
   background: none;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .orange_tel .tel .tel_down span {
+.boss_orange section .orange_tel .tel .tel_down span {
   -webkit-box-flex: 1;
   display: block;
   color: #1c83ff;
@@ -202,10 +202,10 @@ body,
   line-height: 4rem;
   font-size: 1.4rem;
 }
-.boss section .orange_tel .tel .tel_down span:nth-child(1) {
+.boss_orange section .orange_tel .tel .tel_down span:nth-child(1) {
   border-right: 1px solid #e1e1e1;
 }
-.boss section .orange_yes {
+.boss_orange section .orange_yes {
   width: 100%;
   height: 11.5rem;
   background: none;
@@ -216,31 +216,31 @@ body,
   left: 0rem;
   top: 45%;
 }
-.boss section .orange_yes .yes {
+.boss_orange section .orange_yes .yes {
   width: 100%;
   height: 11.5rem;
   background: #ffffff;
   border-radius: 0.8rem;
 }
-.boss section .orange_yes .yes .yes_top {
+.boss_orange section .orange_yes .yes .yes_top {
   width: 100%;
   height: 7.5rem;
   background: none;
   border-bottom: 1px solid #e1e1e1;
 }
-.boss section .orange_yes .yes .yes_top h6 {
+.boss_orange section .orange_yes .yes .yes_top h6 {
   font-size: 1.4rem;
   text-align: center;
   line-height: 7.5rem;
 }
-.boss section .orange_yes .yes .yes_down {
+.boss_orange section .orange_yes .yes .yes_down {
   width: 100%;
   height: 4rem;
   background: none;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .orange_yes .yes .yes_down span {
+.boss_orange section .orange_yes .yes .yes_down span {
   -webkit-box-flex: 1;
   display: block;
   color: #1c83ff;
@@ -248,40 +248,40 @@ body,
   line-height: 4rem;
   font-size: 1.4rem;
 }
-.boss section .orange_yes .yes .yes_down span:nth-child(1) {
+.boss_orange section .orange_yes .yes .yes_down span:nth-child(1) {
   border-right: 1px solid #e1e1e1;
 }
-.boss footer {
+.boss_orange footer {
   width: 100%;
   height: 5rem;
   background: #ffffff;
 }
-.boss footer .orange_status {
+.boss_orange footer .orange_status {
   width: 50%;
   height: 5rem;
   background: none;
   float: left;
 }
-.boss footer .orange_status h5 {
+.boss_orange footer .orange_status h5 {
   font-size: 1.2rem;
   margin-left: 1rem;
   margin-top: 0.3rem;
 }
-.boss footer .orange_status p {
+.boss_orange footer .orange_status p {
   font-size: 0.8rem;
   line-height: 1.4rem;
   margin-left: 1rem;
 }
-.boss footer .orange_status p i {
+.boss_orange footer .orange_status p i {
   color: #ff924f;
 }
-.boss footer .orange_option {
+.boss_orange footer .orange_option {
   width: 50%;
   height: 4.5rem;
   background: none;
   float: right;
 }
-.boss footer .orange_option span {
+.boss_orange footer .orange_option span {
   width: 6.8rem;
   height: 2.8rem;
   background: none;

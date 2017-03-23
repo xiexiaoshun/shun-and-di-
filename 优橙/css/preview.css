@@ -4,107 +4,107 @@ html {
 }
 html,
 body,
-.boss {
+.bos {
   width: 100%;
   height: 100%;
   background: null;
 }
-.boss {
+.bos {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   position: relative;
 }
-.boss header {
+.bos header {
   width: 100%;
-  height: 4.5rem;
+  height: 4rem;
   background: #f7f7f7;
   border-bottom: 1px solid gainsboro;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss header .header_left {
+.bos header .preview_left {
   width: 18%;
   height: auto;
   background: none;
   margin-left: 1rem;
-  margin-top: 1.4rem;
+  margin-top: 1.2rem;
 }
-.boss header .header_left img {
-  width: 1rem;
+.bos header .preview_left img {
+  width: 0.8rem;
   height: auto;
   background: none;
 }
-.boss header h1 {
+.bos header h1 {
   -webkit-box-flex: 1;
   font-size: 1.6rem;
-  line-height: 4.5rem;
+  line-height: 4rem;
   text-align: center;
 }
-.boss header .header_right {
+.bos header .preview_right {
   width: 6rem;
   height: auto;
   background: none;
   padding-right: 1rem;
-  line-height: 5.8rem;
+  line-height: 5.2rem;
 }
-.boss header .header_right span {
+.bos header .preview_right span {
   width: 1.8rem;
   height: auto;
   background: none;
   margin-left: 1rem;
   float: right;
 }
-.boss header .header_right span img {
+.bos header .preview_right span img {
   width: 1.8rem;
   height: auto;
   background: none;
 }
-.boss header .header_right span:nth-child(2) {
+.bos header .preview_right span:nth-child(2) {
   margin-top: -0.2rem;
 }
-.boss nav {
+.bos nav {
   width: 100%;
-  height: 17rem;
+  height: 10rem;
   background: none;
   background: url(../img/fit_06.png) no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% auto;
 }
-.boss nav .fit_title {
+.bos nav .fit_title {
   width: 100%;
-  height: 4.5rem;
+  height: auto;
   background: none;
-  margin-top: 7rem;
+  margin-top: 6%;
 }
-.boss nav .fit_title .title_left {
+.bos nav .fit_title .title_left {
   width: 70%;
-  height: 4.5rem;
+  height: auto;
   background: none;
   margin-left: 1rem;
   float: left;
 }
-.boss nav .fit_title .title_left dl dt {
+.bos nav .fit_title .title_left dl dt {
   width: 4.5rem;
   height: 4.5rem;
   background: none;
   overflow: hidden;
   float: left;
 }
-.boss nav .fit_title .title_left dl dt img {
+.bos nav .fit_title .title_left dl dt img {
   width: 100%;
   height: 100%;
   background: none;
   border-radius: 50%;
 }
-.boss nav .fit_title .title_left dl dd {
+.bos nav .fit_title .title_left dl dd {
   float: left;
   margin-left: 0.5rem;
 }
-.boss nav .fit_title .title_left dl dd h2 {
+.bos nav .fit_title .title_left dl dd h2 {
   font-size: 1.4rem;
   margin-top: 0.2rem;
   color: white;
 }
-.boss nav .fit_title .title_left dl dd h2 span {
+.bos nav .fit_title .title_left dl dd h2 span {
   display: inline-block;
   width: 4.5rem;
   height: 1.5rem;
@@ -117,12 +117,12 @@ body,
   margin-left: 0.5rem;
   margin-top: -0.2rem;
 }
-.boss nav .fit_title .title_left dl dd h3 {
+.bos nav .fit_title .title_left dl dd h3 {
   font-size: 1.4rem;
   margin-top: 0.1rem;
   color: white;
 }
-.boss nav .fit_title .title_left dl dd h3 span {
+.bos nav .fit_title .title_left dl dd h3 span {
   display: inline-block;
   width: 1.1rem;
   height: 1.1rem;
@@ -131,7 +131,7 @@ body,
   border-radius: 50%;
   position: relative;
 }
-.boss nav .fit_title .title_left dl dd h3 span img {
+.bos nav .fit_title .title_left dl dd h3 span img {
   width: 0.7rem;
   height: auto;
   background: none;
@@ -140,14 +140,14 @@ body,
   top: 0.2rem;
   vertical-align: middle;
 }
-.boss nav .fit_title .title_right {
+.bos nav .fit_title .title_right {
   width: 20%;
   height: 4.5rem;
   background: none;
   margin-right: 1rem;
   float: right;
 }
-.boss nav .fit_title .title_right span {
+.bos nav .fit_title .title_right span {
   display: block;
   width: 5rem;
   height: 2.1rem;
@@ -160,7 +160,7 @@ body,
   font-size: 1.1rem;
   color: white;
 }
-.boss nav .fit_title .title_right span img {
+.bos nav .fit_title .title_right span img {
   width: 1.1rem;
   height: auto;
   background: none;
@@ -168,66 +168,67 @@ body,
   vertical-align: middle;
   margin-top: -0.2rem;
 }
-.boss nav .nav_list {
+.bos nav .nav_list {
   width: 100%;
-  height: 5.5rem;
+  height: auto;
   background: #ffffff;
   opacity: 0.8;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss nav .nav_list dl {
+.bos nav .nav_list dl {
   -webkit-box-flex: 1;
   text-align: center;
 }
-.boss nav .nav_list dl img {
-  width: 2.1rem;
+.bos nav .nav_list dl img {
+  width: 1.6rem;
   height: auto;
   background: none;
-  margin-top: 0.9rem;
+  margin-top: 0.3rem;
+  margin-bottom: -0.2rem;
 }
-.boss nav .nav_list dl:nth-child(1) img {
-  width: 2.2rem;
+.bos nav .nav_list dl:nth-child(1) img {
+  width: 1.9rem;
   height: auto;
   background: none;
-  margin-bottom: 0.1rem;
+  margin-bottom: -0.3rem;
 }
-.boss nav .nav_list dl dd {
+.bos nav .nav_list dl dd {
   position: relative;
 }
-.boss nav .nav_list dl dd span {
+.bos nav .nav_list dl dd span {
   display: none;
   width: 100%;
-  height: 0.2rem;
+  height: 0.1rem;
   background: #ff7e1c;
   margin-bottom: -0.5rem;
   position: absolute;
   left: 0rem;
-  bottom: 0rem;
+  bottom: 0.4rem;
 }
-.boss nav .nav_list .per {
+.bos nav .nav_list .per {
   color: #ff7e1c;
 }
-.boss nav .nav_list .per span {
+.bos nav .nav_list .per span {
   display: block;
 }
-.boss section {
+.bos section {
   -webkit-box-flex: 1;
   background: #f3f3f3;
   overflow: auto;
 }
-.boss section::-webkit-scrollbar {
+.bos section::-webkit-scrollbar {
   width: 0;
 }
-.boss section .pictrue {
+.bos section .pictrue {
   margin-top: 0.5rem;
 }
-.boss section .pictrue img {
+.bos section .pictrue img {
   width: 100%;
   height: 20rem;
   background: none;
 }
-.boss section .main {
+.bos section .main {
   width: 100%;
   height: 24rem;
   background: none;
@@ -237,60 +238,61 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .main dl {
+.bos section .main dl {
   width: 100%;
   height: 24rem;
   background: #ffffff;
   -webkit-box-flex: 1;
 }
-.boss section .main dl dt img {
+.bos section .main dl dt img {
   width: 100%;
   height: 17rem;
   background: none;
 }
-.boss section .main dl dd {
+.bos section .main dl dd {
   width: 100%;
   height: auto;
   background: none;
 }
-.boss section .main dl dd h3 {
+.bos section .main dl dd h3 {
   font-size: 1.3rem;
   margin-left: 0.6rem;
 }
-.boss section .main dl dd p {
+.bos section .main dl dd p {
   margin: 0.5rem 0.6rem;
 }
-.boss section .main dl dd p b {
-  font-size: 1.3rem;
+.bos section .main dl dd p b {
+  font-size: 1rem;
   color: #ff7e1c;
   float: left;
   margin-top: -0.3rem;
 }
-.boss section .main dl dd p span {
+.bos section .main dl dd p span {
   float: right;
   color: #a6a6a6;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  margin-top: -0.3rem;
 }
-.boss section .main dl:nth-child(1) {
+.bos section .main dl:nth-child(1) {
   margin-right: 0.5rem;
 }
-.boss footer {
+.bos footer {
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   background: none;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss footer ul {
+.bos footer ul {
   -webkit-box-flex: 1;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
-  padding: 0.8rem 0;
+  padding: 0.6rem 0;
 }
-.boss footer ul li {
+.bos footer ul li {
   -webkit-box-flex: 1;
   text-align: center;
-  line-height: 3.4rem;
+  line-height: 3rem;
   font-size: 1.4rem;
   border-right: 1px solid gainsboro;
 }

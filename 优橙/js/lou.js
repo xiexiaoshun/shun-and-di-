@@ -1,34 +1,15 @@
 var myDiv = angular.module("myapp", ['ui.router']);
 myDiv.config(['$stateProvider', function($stateProvider) {
 	$stateProvider
-		//店铺
-		.state("mystore", {
-			url: 'mystore',
-//			views: {
-//				"body": {
-					templateUrl: "mystore.html"
-//				}
-//			}
-//		templateUrl: "mystore.html"
-		})
-		//首页
-		.state("index", {
-			url: 'index',
-//			views: {
-//				"body": {
-					templateUrl: "index.html"
-//				}
-//			}
-		})
-		//更多
-		.state("more", {
-			url: 'more',
-			templateUrl: "more.html"
-		})
-		//登陆
+		//首次登陆
 		.state("login", {
 			url: 'login',
 			templateUrl: "login.html"
+		})
+		//再次登陆
+		.state("login1", {
+			url: 'login1',
+			templateUrl: "login1.html"
 		})
 		//注册
 		.state("register", {
@@ -40,51 +21,38 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 			url: 'pwd_reset',
 			templateUrl: "pwd_reset.html"
 		})
-		//优橙协助orange_help
-		.state("orange_help", {
-			url: 'orange_help',
-			templateUrl: "orange_help.html"
+		//首页
+		.state("index", {
+			url: 'index',
+//			views: {
+//				"body": {
+					templateUrl: "index.html"
+//				}
+//			}
 		})
-		//我的订单
-		.state("myorder", {
-			url: 'myorder',
-			templateUrl: "myorder.html"
+		//首页-签约说明
+		.state("signed", {
+			url: 'signed',
+			templateUrl: "signed.html"
 		})
-		//优橙协助-修改收货地址
-		.state("save_address", {
-			url: 'save_address',
-			templateUrl: "save_address.html"
+		
+		//更多
+		.state("more", {
+			url: 'more',
+			templateUrl: "more.html"
 		})
-		//首页-店铺信息
-		.state("info", {
-			url: 'info',
-			templateUrl: "info.html"
+		//更多-意见反馈
+		.state("feedback", {
+			url: 'feedback',
+			templateUrl: "feedback.html"
 		})
-		//店铺信息-修改性别
-		.state("dataSave_sex", {
-			url: 'dataSave_sex',
-			templateUrl: "dataSave_sex.html"
+		//更多-反馈成功
+		.state("feedback_ok", {
+			url: 'feedback_ok',
+			templateUrl: "feedback_ok.html"
 		})
-		//店铺信息-修改星座
-		.state("dataSave_star", {
-			url: 'dataSave_star',
-			templateUrl: "dataSave_star.html"
-		})
-		//店铺信息-修改手机号
-		.state("dataSave_tel", {
-			url: 'dataSave_tel',
-			templateUrl: "dataSave_tel.html"
-		})
-		//店铺信息-新手机号
-		.state("dataSave_newtel", {
-			url: 'dataSave_newtel',
-			templateUrl: "dataSave_newtel.html"
-		})
-		//店铺信息-修改收货地址
-		.state("dataSave_address", {
-			url: 'dataSave_address',
-			templateUrl: "dataSave_address.html"
-		})
+		
+		
 		//首页-消息通知
 		.state("notice", {
 			url: 'notice',
@@ -94,11 +62,6 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 		.state("fans", {
 			url: 'fans',
 			templateUrl: "fans.html"
-		})
-		//首页-上架商品
-		.state("fitment1", {
-			url: 'fitment1',
-			templateUrl: "fitment1.html"
 		})
 		//首页-评论管理
 		.state("reviews", {
@@ -139,5 +102,101 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 		.state("business", {
 			url: 'business',
 			templateUrl: "business.html"
+		})
+		
+		//优橙协助orange_help
+		//优橙协助
+		.state("orange_help", {
+			url: 'orange_help',
+			templateUrl: "orange_help.html"
+		})
+		//优橙协助-修改收货地址
+		.state("save_address", {
+			url: 'save_address',
+			templateUrl: "save_address.html"
+		})
+		
+		//订单状态myorder
+		//商品订单
+		.state("myorder", {
+			url: 'myorder',
+			templateUrl: "myorder.html"
+		})
+		//商品订单-订单详情
+		.state("order1", {
+			url: 'order1',
+			templateUrl: "order1.html"
+		})
+		//优橙订单
+		.state("myorange", {
+			url: 'myorange',
+			templateUrl: "myorange.html"
+		})
+		//优橙订单-订单详情
+		.state("orange2", {
+			url: 'orange2',
+			templateUrl: "orange2.html"
+		})
+		
+		//我的店铺mystore
+		//我的店铺
+		.state("mystore", {
+			url: 'mystore',
+			templateUrl: "mystore.html"
+		})
+		//店铺-店铺装修1
+		.state("fitment1", {
+			url: 'fitment1',
+			templateUrl: "fitment1.html"
+		})
+		//店铺-店铺装修2
+		.state("fitment2", {
+			url: 'fitment2',
+			templateUrl: "fitment2.html"
+		})
+		//店铺-预览店铺
+		.state("preview", {
+			url: 'preview',
+			templateUrl: "preview.html"
+		})
+		//店铺-商品详情
+		.state("shop_list", {
+			url: 'shop_list',
+			templateUrl: "shop_list.html"
+		})
+		//店铺-我的作品库
+		.state("works", {
+			url: 'works',
+			templateUrl: "works.html"
+		})
+		//首页-店铺与个人信息
+		.state("info", {
+			url: 'info',
+			templateUrl: "info.html"
+		})
+		//店铺信息-修改性别
+		.state("dataSave_sex", {
+			url: 'dataSave_sex',
+			templateUrl: "dataSave_sex.html"
+		})
+		//店铺信息-修改星座
+		.state("dataSave_star", {
+			url: 'dataSave_star',
+			templateUrl: "dataSave_star.html"
+		})
+		//店铺信息-修改手机号
+		.state("dataSave_tel", {
+			url: 'dataSave_tel',
+			templateUrl: "dataSave_tel.html"
+		})
+		//店铺信息-新手机号
+		.state("dataSave_newtel", {
+			url: 'dataSave_newtel',
+			templateUrl: "dataSave_newtel.html"
+		})
+		//店铺信息-修改收货地址
+		.state("dataSave_address", {
+			url: 'dataSave_address',
+			templateUrl: "dataSave_address.html"
 		})
 }]);
