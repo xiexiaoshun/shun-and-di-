@@ -1,38 +1,40 @@
-var myDiv = angular.module("myapp", ['ui.router']);
-myDiv.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+var myapp = angular.module("myapp", ['ui.router']);
+myapp.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
 	$stateProvider
-		//店铺
-		.state("mystore", {
-			url: 'mystore',
-<<<<<<< HEAD
-			views: {
-				"main": {
-					templateUrl: "mystore.html"
-				}
-			} 
-		});
-=======
-//			views: {
-//				"body": {
-//					templateUrl: "myorder.html"
-//				}
-//			}
-		templateUrl: "mystore.html"
-		})
-		//首页
+		//首页  
 		.state("index", {
 			url: 'index',
-			templateUrl: "index.html"
-		})
-		//优橙协助orange_help
-		.state("orange_help", {
-			url: 'orange_help',
-			templateUrl: "orange_help.html"
+			views:{
+				"box":{
+					templateUrl: "index.html"	
+				}
+			}
 		})
 		//优橙协助
+		.state("orange_help", {
+			url: 'orange_help',
+			views:{
+				"box":{
+					templateUrl: "orange_help.html"	
+				}
+			}
+		})
+		//订单状态
 		.state("myorder", {
 			url: 'myorder',
-			templateUrl: "myorder.html"
+			views:{
+				"box":{
+					templateUrl: "myorder.html"	
+				}
+			}
 		})
->>>>>>> b09618c1d091e382e70a982f6a568e2da13ee828
+		//我的店铺
+		.state("mystore", {
+			url: 'mystore',
+			views:{
+				"box":{
+					templateUrl: "mystore.html"	
+				}
+			}
+		})
 }]);

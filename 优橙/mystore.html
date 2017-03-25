@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 	<head>
 		<meta charset="UTF-8">
 		<title>优橙-我的店铺</title>
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/mystore.css">
 		
 	</head>
-	<body>
+	<body ui-view="">
 		<div class="boss">
 			<header>
 				<div class="store_left"><img src="img/1_03.jpg"></div>
@@ -57,8 +57,7 @@
 		</div>
 	</body>
 	<script src="js/angular.js" charset="utf-8"></script>
-		<script src="js/angular-route.min.js" charset="utf-8"></script>
-		<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+	<script src="js/angular-route.min.js" charset="utf-8"></script>
+	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
 	<script src="js/lou.js" type="text/javascript" charset="utf-8"></script>
-	
 </html>

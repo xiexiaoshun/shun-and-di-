@@ -15,9 +15,29 @@ html,body,.boss{
     .whb(100%,100%,null);
     overflow: hidden;
 }
+//.grand{
+//  -webkit-box-flex: 1;
+//  overflow-y: auto;
+//  &::-webkit-scrollbar{width: 0}; 
+//  .box(vertical);
+    .father_box{
+        -webkit-box-flex: 1;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0}; 
+        .box(vertical);
+        header{
+            .whb(100%,45px,#f7f7f7);
+        }
+        .son_box{
+            -webkit-box-flex: 1;
+            overflow-y: auto;
+            &::-webkit-scrollbar{width: 0}; 
+        }
+    }
+//}
 .boss{
     .box(vertical);
-    header{
+    header{ 
         position: relative;
         .whb(100%,45px,#f7f7f7);
         border-bottom: 1px solid gainsboro;
@@ -26,7 +46,7 @@ html,body,.boss{
             position: absolute;
             left: 12px;
             top: 14px;
-        }
+        }     
         h1{
             text-align: center;
             line-height: 45px;
@@ -40,7 +60,7 @@ html,body,.boss{
             .whb(100%,100px,white);
             .box(horizontal);
             .nav_left{
-                .whb(55px,55px,none);
+                .whb(55px,55px,none); 
                 margin-left: 18px;
                 margin-top: 15px;
                 .circle{
@@ -98,8 +118,8 @@ html,body,.boss{
     section{
         -webkit-box-flex: 1;
         background: #f2f2f2;
-        overflow-y: auto;
-        &::-webkit-scrollbar{width: 0};
+//      overflow-y: auto;
+//      &::-webkit-scrollbar{width: 0};
         .work{
             h2{
                 background: white;

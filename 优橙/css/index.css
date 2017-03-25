@@ -7,6 +7,27 @@ body,
   background: null;
   overflow: hidden;
 }
+.father_box {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.father_box::-webkit-scrollbar {
+  width: 0;
+}
+.father_box header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+}
+.father_box .son_box {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.father_box .son_box::-webkit-scrollbar {
+  width: 0;
+}
 .boss {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -109,10 +130,6 @@ body,
 .boss section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
-  overflow-y: auto;
-}
-.boss section::-webkit-scrollbar {
-  width: 0;
 }
 .boss section .work h2 {
   background: white;

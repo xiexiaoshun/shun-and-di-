@@ -16,209 +16,224 @@ html{
 }
 html,body,.boss{
     .whb(100%,100%,null);
+    overflow: hidden;
 }
+//.boss{
+//  .box(vertical);
+//  .myorder_father{
+//      .whb(100%,9.5rem,none);
+//  }
+//  section{
+//      -webkit-box-flex: 1;
+//      overflow-y: auto;
+//      &::-webkit-scrollbar{width: 0};
+//  }
+//}
 .boss{
     .box(vertical);
-    header{
-        .whb(100%,4.5rem,#f7f7f7);
-        border-bottom: 1px solid gainsboro;
-        .box(horizontal);
-        .order_left{
-            .whb(1rem,auto,none);
-            margin-left: 1rem;
-            margin-top: 1.2rem;
-            img{
-                .whb(1rem,auto,none);
-            }
-        }
-        .order_center{
-            -webkit-box-flex: 1;
-            .order_son{
-                .whb(16rem,2.2rem,none);
-                margin: 0 auto;
-                margin-top: 10px;
-                border: 1px solid #ff7f1c;
-                border-radius: 0.6rem;
-                overflow: hidden;
-                text-align: center;
-                span{
-                    display: block;
-                    .whb(8rem,2.5rem,#ff7f1c);
-                    line-height: 2.2rem;
-                    font-size: 1.4rem;
-                    float: left;
-                    color: #ff7f1c;
-                    background: none;
-                }
-                .first{
-                    color: white;
-                    background: #ff7f1c;
-                }
-            }  
-        }
-        .order_right{
-            .whb(1.8rem,auto,none);
-            margin-right: 1rem;
-            margin-top: 1.2rem;
-            img{
-                .whb(1.8rem,auto,none);
-            }
-        }
-    }
-    .warp{
-        position: relative;
-        -webkit-box-flex: 1;
-    }
-    nav{
-        .whb(100%,5rem,white);
-        border-bottom: 1px solid gainsboro;
-        .box(horizontal);
-        .nav_info{
-            -webkit-box-flex: 1;
-            overflow: hidden;
+//  .myorder_father{
+//      .whb(100%,9.5rem,none);
+        header{
+            .whb(100%,4.5rem,#f7f7f7);
+            border-bottom: 1px solid gainsboro;
             .box(horizontal);
-            .swiper-slide{
-                text-align: center;
-                position: relative;
-                h5{
-                    font-size: 1.2rem;
-                    line-height: 2.2rem;
-                    margin-top: 4px;
-                }
-                h6{
-                    font-size: 1.3rem;
-                }
-                span{
-                    display: none;
-                    .whb(100%,1px,#ff7f1c);
-                    position: absolute;
-                    bottom: -5px;
+            .order_left{
+                .whb(1rem,auto,none);
+                margin-left: 1rem;
+                margin-top: 1.2rem;
+                img{
+                    .whb(1rem,auto,none);
                 }
             }
-            .change{
-                color: #ff7f1c;
-                span{
-                    display: block;  
-                }
-            }
-            li{
+            .order_center{
                 -webkit-box-flex: 1;
-                text-align: center;
-                h5{
-                    font-size: 1.2rem;
-                    line-height: 2.2rem;
-                    margin-top: 4px;
-                }
-                h6{
-                    font-size: 1.3rem;
+                .order_son{
+                    .whb(16rem,2.2rem,none);
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    border: 1px solid #ff7f1c;
+                    border-radius: 0.6rem;
+                    overflow: hidden;
+                    text-align: center;
+                    span{
+                        display: block;
+                        .whb(8rem,2.5rem,#ff7f1c);
+                        line-height: 2.2rem;
+                        font-size: 1.4rem;
+                        float: left;
+                        color: #ff7f1c;
+                        background: none;
+                    }
+                    .first{
+                        color: white;
+                        background: #ff7f1c;
+                    }
+                }  
+            }
+            .order_right{
+                .whb(1.8rem,auto,none);
+                margin-right: 1rem;
+                margin-top: 1.2rem;
+                img{
+                    .whb(1.8rem,auto,none);
                 }
             }
         }
-        .pull{
-            .whb(4.5rem,auto,none);
-            border-left: 1px solid gainsboro; 
-            margin: 0.6rem 0;
+        nav{
+            .whb(100%,5rem,white);
+            border-bottom: 1px solid gainsboro;
+            .box(horizontal);
+            .nav_info {
+                -webkit-box-flex: 1;
+                overflow: hidden;
+                .box(horizontal);
+                .swiper-slide {
+                    text-align: center;
+                    position: relative;
+                    h5 {
+                        font-size: 1.2rem;
+                        line-height: 2.2rem;
+                        margin-top: 4px;
+                    }
+                    h6 {
+                        font-size: 1.3rem;
+                    }
+                    span {
+                        display: none;
+                        .whb(100%,1px,#ff7f1c);
+                        position: absolute;
+                        bottom: -5px;
+                    }
+                }
+                .change {
+                    color: #ff7f1c;
+                    span {
+                        display: block;
+                    }
+                }
+                li {
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                    h5 {
+                        font-size: 1.2rem;
+                        line-height: 2.2rem;
+                        margin-top: 4px;
+                    }
+                    h6 {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            .pull {
+                .whb(4.5rem,auto,none);
+                border-left: 1px solid gainsboro;
+                margin: 0.6rem 0;
                 text-align: center;
                 line-height: 4rem;
-            img{
-                .whb(1.4rem,auto,none);
-            }
-        }
-        .shade_big{
-            .whb(100%,100%,#919191);
-            display: none;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            opacity: 0.4;
-        }
-        .shade_small{
-            .whb(100%,15rem,grey);
-            display: none;
-            z-index: 999;
-            position: absolute;
-            top: 0rem;
-            left: 0;
-            .order_option{
-                .whb(100%,5rem,#f2f2f2);
-                H4{
-                    font-size: 1.4rem;
-                    line-height: 5rem;
-                    margin-left: 2rem;
-                    color: #999999;
-                    float: left;
-                }
-                span{
-                    float: right;
-                    margin-top: 1.6rem;
-                    margin-right: 1.4rem;
-                    img{
-                        .whb(1.8rem,auto,none);
-                    }
+                img {
+                    .whb(1.4rem,auto,none);
                 }
             }
-            .order_type{
-                .whb(100%,10rem,#ffffff);
-                ul{
-                    .box(horizontal);
-                    li{
-                        -webkit-box-flex: 1;
-                        .whb(33%,5rem,none);
-                        text-align: center;
-                        border-right: 1px solid gainsboro;
-                        border-bottom: 1px solid gainsboro;
-                        position:relative; 
-                        &:nth-child(3){
-                            border-right: none;
-                        } 
-                        h5{
-                            font-size: 1.2rem;
-                            line-height: 2.2rem;
-                            margin-top: 4px;
-                        }
-                        h6{
-                            font-size: 1.3rem;
-                        }
-                        span{
-                            display: none;
-                            .whb(100%,1px,#ff7f1c);
-                            position: absolute;
-                            bottom: 0px;
-                        }
+            .shade_big {
+                .whb(100%,100%,#919191);
+                display: none;
+                opacity: 0.4;
+                position: absolute;
+                left: 0rem;
+                top: 4.5rem;
+            }
+            .shade_small {
+                .whb(100%,15rem,grey);
+                display: none;
+                z-index: 999;
+                position: absolute;
+                top: 4.5rem;
+                left: 0rem;
+                .order_option {
+                    .whb(100%,5rem,#f2f2f2);
+                    H4 {
+                        font-size: 1.4rem;
+                        line-height: 5rem;
+                        margin-left: 2rem;
+                        color: #999999;
+                        float: left;
                     }
-                    .only{
-                        color: #ff7f1c;
-                        span{
-                            display: block;
+                    span {
+                        float: right;
+                        margin-top: 1.6rem;
+                        margin-right: 1.4rem;
+                        img {
+                            .whb(1.8rem,auto,none);
                         }
                     }
                 }
+                .order_type {
+                    .whb(100%,10rem,#ffffff);
+                    ul {
+                        .box(horizontal);
+                        li {
+                            -webkit-box-flex: 1;
+                            .whb(33%,5rem,none);
+                            text-align: center;
+                            border-right: 1px solid gainsboro;
+                            border-bottom: 1px solid gainsboro;
+                            position: relative;
+                            &:nth-child(3) {
+                                border-right: none;
+                            }
+                            h5 {
+                                font-size: 1.2rem;
+                                line-height: 2.2rem;
+                                margin-top: 4px;
+                            }
+                            h6 {
+                                font-size: 1.3rem;
+                            }
+                            span {
+                                display: none;
+                                .whb(100%,1px,#ff7f1c);
+                                position: absolute;
+                                bottom: 0;
+                            }
+                        }
+                        .only {
+                            color: #ff7f1c;
+                            span {
+                                display: block;
+                            }
+                        }
+                    }
+                }
             }
         }
-    }
+//  }
     section{
         -webkit-box-flex: 1;
         background: #f7f7f7;
-        .order_num{
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+            width: 0;
+        };
+        .order_num {
             .whb(100%,auto,white);
             margin-top: 0.5rem;
-            .order_title{
+            .order_title {
                 .whb(100%,3rem,none);
-                border-bottom: 1px solid beige; 
+                border-bottom: 1px solid beige;
                 line-height: 3rem;
-                h3{
+                h3 {
                     float: left;
                     margin-left: 1rem;
                 }
-                span{
+                span {
                     float: right;
                     margin-right: 1rem;
                     color: #ff7f1c;
                 }
             }
-            .order_info{
+            .order_info {
                 padding: 0.5rem 0;
-                p{
+                p {
                     color: #666666;
                     margin-left: 1rem;
                     line-height: 1.8rem;
