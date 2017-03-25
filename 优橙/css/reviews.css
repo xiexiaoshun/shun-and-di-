@@ -1,133 +1,137 @@
 @import url("reset.css");
+html {
+  font-size: 62.5%;
+}
 html,
 body,
-.boss {
+.boss_reviews {
   width: 100%;
   height: 100%;
   background: null;
 }
-.boss {
+.boss_reviews {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   background: #f7f7f7;
 }
-.boss header {
+.boss_reviews header {
   width: 100%;
   height: 45px;
   background: none;
   border-bottom: 1px solid #d9d9d9;
+  position: relative;
 }
-.boss header .header_left {
+.boss_reviews header .header_left {
   position: absolute;
   left: 12px;
   top: 12px;
 }
-.boss header .header_left img {
-  width: 20px;
+.boss_reviews header .header_left img {
+  width: 22px;
   height: auto;
   background: null;
 }
-.boss header h1 {
+.boss_reviews header h1 {
   text-align: center;
-  line-height: 45px;
+  line-height: 46px;
   font-size: 15px;
 }
-.boss header .header_right {
+.boss_reviews header .header_right {
   position: absolute;
   right: 12px;
   top: 13px;
 }
-.boss header .header_right img {
+.boss_reviews header .header_right img {
   width: 20px;
   height: auto;
   background: null;
 }
-.boss nav {
+.boss_reviews nav {
   width: 100%;
   height: 40px;
   background: #ffffff;
 }
-.boss nav ul {
+.boss_reviews nav ul {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   margin: 5px 0;
 }
-.boss nav ul li {
+.boss_reviews nav ul li {
   -webkit-box-flex: 1;
   text-align: center;
   line-height: 30px;
   border-right: 1px solid  #d9d9d9;
 }
-.boss nav ul li img {
+.boss_reviews nav ul li img {
   width: 10px;
   height: auto;
   background: null;
   margin-left: 5px;
 }
-.boss nav ul li:nth-child(3) {
+.boss_reviews nav ul li:nth-child(3) {
   border: none;
 }
-.boss section {
+.boss_reviews section {
   -webkit-box-flex: 1;
   overflow-y: auto;
 }
-.boss section::-webkit-scrollbar {
+.boss_reviews section::-webkit-scrollbar {
   width: 0;
 }
-.boss section .contain {
+.boss_reviews section .contain {
   width: 100%;
   height: auto;
   background: #ffffff;
   margin-top: 5px;
 }
-.boss section .contain h3 {
+.boss_reviews section .contain h3 {
   line-height: 30px;
   border-bottom: 1px solid beige;
   padding-left: 12px;
 }
-.boss section .contain .main {
+.boss_reviews section .contain .main {
   background: white;
 }
-.boss section .contain .main .main1 {
+.boss_reviews section .contain .main .main1 {
   padding: 10px 12px 3px;
 }
-.boss section .contain .main .main1 .deal {
+.boss_reviews section .contain .main .main1 .deal {
   float: left;
 }
-.boss section .contain .main .main1 .deal p {
+.boss_reviews section .contain .main .main1 .deal p {
   font-size: 10px;
   color: #666666;
   line-height: 18px;
 }
-.boss section .contain .main .main1 .star {
+.boss_reviews section .contain .main .main1 .star {
   float: right;
 }
-.boss section .contain .main .main1 .star img {
+.boss_reviews section .contain .main .main1 .star img {
   width: 12px;
   height: auto;
   background: null;
 }
-.boss section .contain .main .main2 {
+.boss_reviews section .contain .main .main2 {
   padding: 0 12px 8px;
   line-height: 18px;
 }
-.boss section .contain .main .main2 p {
+.boss_reviews section .contain .main .main2 p {
   margin: 5px 0;
   line-height: 18px;
 }
-.boss section .contain .main .main2 p:nth-child(1) b {
+.boss_reviews section .contain .main .main2 p:nth-child(1) b {
   color: #666666;
 }
-.boss section .contain .main .main2 p:nth-child(2) b {
+.boss_reviews section .contain .main .main2 p:nth-child(2) b {
   color: #ff7d1b;
 }
-.boss section .contain .reply {
+.boss_reviews section .contain .reply {
   width: 100%;
   height: 30px;
   background: #ffffff;
   border-top: 1px solid beige;
 }
-.boss section .contain .reply span {
+.boss_reviews section .contain .reply span {
   display: block;
   margin-top: 4px;
   margin-right: 12px;
@@ -141,7 +145,7 @@ body,
   line-height: 20px;
   float: right;
 }
-.boss section .shade_big {
+.boss_reviews section .shade_big {
   width: 100%;
   height: 100%;
   background: #919191;
@@ -151,7 +155,7 @@ body,
   top: 0px;
   opacity: 0.4;
 }
-.boss section .shade_small {
+.boss_reviews section .shade_small {
   width: 100%;
   height: 110px;
   background: #ebebeb;
@@ -162,7 +166,7 @@ body,
   left: 0px;
   bottom: 0px;
 }
-.boss section .shade_small input {
+.boss_reviews section .shade_small input {
   width: 100%;
   height: auto;
   background: #ffffff;
@@ -172,6 +176,18 @@ body,
   border: none;
   outline: none;
 }
-.boss section .shade_small input::-webkit-input-placeholder {
+.boss_reviews section .shade_small input::-webkit-input-placeholder {
   padding-top: -20px;
+}
+.boss_reviews section .shade_small span {
+  display: block;
+  width: 4rem;
+  height: 1.8rem;
+  background: #919191;
+  color: white;
+  line-height: 1.8rem;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+  margin-top: 8px;
 }

@@ -11,13 +11,13 @@ html,body,#wrap{
     font-size: 62.5%;
     overflow:hidden;
 }
-#wrap{
+#wrap_query{
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
 header{
     .whb(100%,3.5rem,0);
-    border-bottom: 0.1rem solid #bfbfbf;
+    border-bottom: 0.1rem solid gainsboro;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
     .header_left{
@@ -47,7 +47,7 @@ header{
 }
 nav{
     .whb(100%,3.4rem,#fff);
-    padding: 0.4rem 0;
+//  padding: 0.4rem 0;
     box-sizing: border-box;
     .nav1{
         .whb(100%,100%,none);
@@ -56,12 +56,15 @@ nav{
         &>div{
             -webkit-box-flex: 1;
             width: 0;
-            line-height: 2.6rem;
+            line-height: 3.4rem;
             text-align: center;
-            border-right: 0.1rem solid #cccccc;
-            font-size: 1.2rem;
+            border-right: 0.1rem solid beige;
+            font-size: 1.3rem;
             &:nth-child(4){
                 border: none;
+            }
+             &:nth-child(1){
+                border-bottom: none;
             }
         }
         div:nth-child(2){
@@ -76,7 +79,8 @@ nav{
                     line-height: 2.4rem;
                     font-size: 1.4rem;
                     color: #000;
-                    border: 0.1rem solid #ccc;
+                    border: 0.1rem solid gainsboro;
+                    border-top: none;
                 }
                 .li2{
                     color: #FF7E1C;
@@ -113,6 +117,8 @@ nav{
 }
 section{
     -webkit-box-flex: 1;
+    overflow-y: auto;
+    &::-webkit-scrollbar{width: 0;};
     .main1{
         .whb(100%,4.2rem,#fff);
         margin-top: 0.5rem;

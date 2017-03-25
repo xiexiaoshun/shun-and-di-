@@ -4,58 +4,62 @@ html {
 }
 html,
 body,
-.boss {
+.boss_feedback {
   width: 100%;
   height: 100%;
   background: null;
 }
-.boss {
+.boss_feedback {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-.boss header {
+.boss_feedback header {
   width: 100%;
-  height: 4.5rem;
+  height: 4rem;
   background: #f7f7f7;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   border-bottom: 1px solid gainsboro;
   position: relative;
 }
-.boss header .header_left {
+.boss_feedback header .feedback_left {
   position: absolute;
   left: 1rem;
-  top: 1.2rem;
+  top: 1.4rem;
 }
-.boss header .header_left img {
-  width: 1rem;
+.boss_feedback header .feedback_left img {
+  width: 0.8rem;
   height: auto;
   background: none;
 }
-.boss header h1 {
+.boss_feedback header h1 {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 1.5rem;
-  line-height: 4.5rem;
+  line-height: 4rem;
 }
-.boss section {
+.boss_feedback section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
   padding: 0 1rem;
+  overflow-y: auto;
 }
-.boss section h2 {
+.boss_feedback section::-webkit-scrollbar {
+  width: 0;
+}
+.boss_feedback section h2 {
   line-height: 3rem;
   color: #666666;
   font-size: 1.3rem;
 }
-.boss section .txt {
+.boss_feedback section .txt {
   width: 100%;
   height: 15rem;
   background: #ffffff;
   border: 1px solid gainsboro;
   border-radius: 0.8rem;
 }
-.boss section .txt input {
+.boss_feedback section .txt input {
   width: 100%;
   height: 15rem;
   background: #ffffff;
@@ -63,7 +67,7 @@ body,
   border: none;
   outline: none;
 }
-.boss section button {
+.boss_feedback section button {
   width: 100%;
   height: 3rem;
   background: #ff7f1c;

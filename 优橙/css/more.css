@@ -33,6 +33,10 @@ body,
 }
 .boss section {
   -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
 }
 .boss section .about {
   width: 100%;

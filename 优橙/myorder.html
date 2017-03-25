@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='myapp'>
 	<head>
 		<meta charset="UTF-8">
 		<title>优橙-我的商品订单</title>
@@ -14,6 +14,7 @@
 		<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
 		<script src="js/lou.js"></script>
 	</head>
+<<<<<<< HEAD
 	<body ng-app='myapp'>
 		<div class="boss" ui-view='box'>
 				<header>
@@ -36,11 +37,35 @@
 					    </div>
 					</div>
 					<div class="pull">
+=======
+	<body ui-view>
+		<div class="boss_myorder">
+			<header>
+				<div class="order_left" ui-sref="index"><img src="img/1_03.jpg"></div>
+				<div class="order_center"><div class="order_son"><span class="first">商品订单</span><span ui-sref="myorange">优橙订单</span></div></div>
+				<div class="order_right"><img src="img/1_05.jpg"></div>
+			</header>
+			<nav>
+				<!-- Swiper -->
+				<div class="nav_info">
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+					        <div class="swiper-slide change"><h5>81</h5><h6>全部</h6><span></span></div>
+				            <div class="swiper-slide"><h5>12</h5><h6>未付款</h6><span></span></div>
+					        <div class="swiper-slide"><h5>23</h5><h6>待发货</h6><span></span></div>
+				            <div class="swiper-slide"><h5>12</h5><h6>待收货</h6><span></span></div>
+					        <div class="swiper-slide"><h5>1</h5><h6>售后中</h6><span></span></div>
+					        <div class="swiper-slide"><h5>33</h5><h6>已完成</h6><span></span></div>
+					    </div>       
+				    </div>
+				</div>
+				<div class="pull">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<img src="img/order.png">
 					</div>
-					<!--遮罩列表-->
-					<div class="shade_big"></div>
-					<div class="shade_small">
+				<!--遮罩列表-->
+				<div class="shade_big"></div>
+				<div class="shade_small">
 						<div class="order_option">
 								<h4>全部选项</h4>
 								<span><img src="img/order_01.png"></span>
@@ -50,17 +75,27 @@
 									<li class="only"><h5>81</h5><h6>全部</h6><span></span></li>
 									<li><h5>12</h5><h6>未付款</h6><span></span></li>
 									<li><h5>23</h5><h6>待发货</h6><span></span></li>
+<<<<<<< HEAD
 								</ul>
 								<ul>
+=======
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 									<li><h5>12</h5><h6>待收货</h6><span></span></li>
 									<li><h5>1</h5><h6>售后中</h6><span></span></li>
 									<li><h5>33</h5><h6>已完成</h6><span></span></li>
 								</ul>
 							</div>
 					</div>
+<<<<<<< HEAD
 				</nav>
 			<section>
 				<div class="order_num">
+=======
+			</nav>
+			<section>
+				<div class="myorder_one" ui-sref="order1">
+					<div class="order_num">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>待收货</span>
@@ -72,7 +107,11 @@
 							<p>物流信息：顺丰速运 929526579</p>
 						</div>
 					</div>
+<<<<<<< HEAD
 				<div class="order_num">
+=======
+					<div class="order_num">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>待发货</span>
@@ -82,7 +121,11 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
+<<<<<<< HEAD
 				<div class="order_num">
+=======
+					<div class="order_num">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>未付款</span>
@@ -92,7 +135,88 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
+<<<<<<< HEAD
 				<div class="order_num">
+=======
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>退款中</span>
+						</div>
+						<div class="order_info">
+						<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+						<p>交易时间：2016-06-01 12:14</p>
+					</div>
+					</div>
+				</div>
+				<div ui-sref="order1">
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>未付款</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>未付款</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>未付款</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+				</div>
+				<div ui-sref="order1">
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>待发货</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>待发货</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+				</div>
+				<div ui-sref="order1">
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>待发货</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+				</div>
+				<div ui-sref="order1">
+					<div class="order_num">
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>退款中</span>
@@ -102,6 +226,45 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>待收货</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+							<p>发货时间：2016-06-02 14:11</p>
+							<p>物流信息：顺丰速运 929526579</p>
+						</div>
+					</div>
+				</div>
+				<div ui-sref="order1">
+					<div class="order_num">
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>退款中</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+					<div class="order_num">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
+						<div class="order_title">
+							<h3>订单编号：ZD1023586500</h3>
+							<span>退款中</span>
+						</div>
+						<div class="order_info">
+							<p>总价：￥73.00(商品金额48.00+运费25.00)</p>
+							<p>交易时间：2016-06-01 12:14</p>
+						</div>
+					</div>
+<<<<<<< HEAD
+=======
+				</div>
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 			</section>
 			<footer>
 				<dl ui-sref="index">
@@ -127,6 +290,7 @@
 		</footer>
 		</div>
 	</body>
+<<<<<<< HEAD
 	<script type="text/javascript">
 		$(function(){
 			$('.pull img').click(function(){
@@ -141,6 +305,18 @@
 		var swiper = new Swiper('.swiper-container', {
 	        pagination: '.swiper-pagination',
 	        slidesPerView: 3.5,
+=======
+	<script src="js/swiper.min.js"></script>
+	<!--<script src="js/angular.js" charset="utf-8"></script>
+	<script src="js/angular-route.min.js" charset="utf-8"></script>
+	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>-->
+	<script src="js/lou.js"></script>
+	<script src="js/result.js"></script>	
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    slidesPerView: 4,
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 	        paginationClickable: true,
 	        freeMode: true
 	  	});

@@ -6,30 +6,34 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/mystore.css">
-		
 	</head>
+<<<<<<< HEAD
 	<body ui-view="">
 		<div class="boss">
+=======
+	<body ui-view>
+		<div class="boss_mystore">
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 			<header>
-				<div class="store_left"><img src="img/1_03.jpg"></div>
+				<div class="store_left" ui-sref="index"><img src="img/1_03.jpg"></div>
 				<h1>我的店铺</h1>
 				<div class="store_right"><img src="img/1_05.jpg"></div>
 			</header>
 			<section>
 				<div class="store_main1">
-					<div class="main1"><p><img src="img/shop_10.png">店铺装修与管理</p><span><img src="img/back.png"></span></div>
-					<div class="main1"><p class="view"><img src="img/shop_08.png">预览店铺</p><span class="view"><img src="img/back.png"></span></div>
+					<div class="main1" ui-sref="fitment1"><p><img src="img/shop_10.png">店铺装修与管理</p><span><img src="img/back.png"></span></div>
+					<div class="main1" ui-sref="preview"><p class="view"><img src="img/shop_08.png">预览店铺</p><span class="view"><img src="img/back.png"></span></div>
 				</div>
 				<div class="store_main2">
-					<div class="main2"><p><img src="img/shop_06.png">上架商品（30）</p><span><img src="img/back.png"></span></div>
-					<div class="main2"><p><img src="img/shop_05.png">库存商品（15）</p><span><img src="img/back.png"></span></div>
+					<div class="main2" ui-sref="fitment1"><p><img src="img/shop_06.png">上架商品（30）</p><span><img src="img/back.png"></span></div>
+					<div class="main2" ui-sref="fitment1"><p><img src="img/shop_05.png">库存商品（15）</p><span><img src="img/back.png"></span></div>
 					<div class="main2"><p><img src="img/shop_04.png">草稿箱（7）</p><span><img src="img/back.png"></span></div>
-					<div class="main2"><p><img src="img/shop_03.png">待审核商品（23）</p><span><img src="img/back.png"></span></div>
-					<div class="main2"><p class="view"><img src="img/shop_02.png">未通过审核商品（2）</p><span class="view"><img src="img/back.png"></span></div>
+					<div class="main2" ui-sref="fitment1"><p><img src="img/shop_03.png">待审核商品（23）</p><span><img src="img/back.png"></span></div>
+					<div class="main2" ui-sref="fitment1"><p class="view"><img src="img/shop_02.png">未通过审核商品（2）</p><span class="view"><img src="img/back.png"></span></div>
 				</div>
 				<div class="store_main3">
-					<div class="main3"><p><img src="img/shop_01.png">店铺与个人信息</p><span><img src="img/back.png"></span></div>
-					<div class="main3"><p class="view"><img src="img/shop_07.png">我的作品库</p><span class="view"><img src="img/back.png"></span></div>
+					<div class="main3" ui-sref="info"><p><img src="img/shop_01.png">店铺与个人信息</p><span><img src="img/back.png"></span></div>
+					<div class="main3" ui-sref="works"><p class="view"><img src="img/shop_07.png">我的作品库</p><span class="view"><img src="img/back.png"></span></div>
 				</div>
 			</section>
 			<footer>
@@ -49,15 +53,21 @@
 					<dt><img src="img/index_17.png"></dt>
 					<dd>订单状态</dd>
 				</dl>
-				<dl ui-sref="mystore">
+				<dl>
 					<dt><img src="img/index_20.png"></dt>
 					<dd>我的店铺</dd>
 				</dl>
 			</footer>
 		</div>
 	</body>
+<<<<<<< HEAD
 	<script src="js/angular.js" charset="utf-8"></script>
 	<script src="js/angular-route.min.js" charset="utf-8"></script>
 	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
+=======
+	<!--<script src="js/angular.js" charset="utf-8"></script>
+	<script src="js/angular-route.min.js" charset="utf-8"></script>
+	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>-->
+>>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 	<script src="js/lou.js" type="text/javascript" charset="utf-8"></script>
 </html>

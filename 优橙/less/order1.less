@@ -14,10 +14,10 @@
 html{
     font-size: 62.5%;
 }
-html,body,.boss{
+html,body,.boss_order{
     .whb(100%,100%,null);
 }
-.boss{
+.boss_order{
     .box(vertical);
     header{
         .whb(100%,4.5rem,#f7f7f7);
@@ -27,7 +27,7 @@ html,body,.boss{
             left: 1rem;
             top: 1.4rem;
             img{
-                .whb(1rem,auto,none);
+                .whb(0.9rem,auto,none);
             }
         }
         h1{
@@ -47,6 +47,8 @@ html,body,.boss{
     section{
         -webkit-box-flex: 1;
         background: #f2f2f2;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;};
         .order_main{
             .whb(100%,auto,#ffffff);
             padding: 0.8rem 0;

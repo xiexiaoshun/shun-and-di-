@@ -35,6 +35,10 @@ body,
 .boss section {
   background: #f7f7f7;
   -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
 }
 .boss section .list {
   width: 100%;

@@ -14,34 +14,34 @@
 html{
     font-size: 62.5%;
 }
-html,body,.boss{
+html,body,.bos{
     .whb(100%,100%,null);
 }
-.boss{
-    .box(vertical);
+.bos{
+    .box(vertical);          
     position: relative;
     header{
-        .whb(100%,4.5rem,#f7f7f7);
+        .whb(100%,4rem,#f7f7f7);
         border-bottom: 1px solid gainsboro;
         .box(horizontal);
-        .header_left{
+        .preview_left{
             .whb(18%,auto,none);
             margin-left: 1rem;
-            margin-top: 1.4rem;
+            margin-top: 1.2rem;
             img{
-                .whb(1rem,auto,none);
+                .whb(0.8rem,auto,none);
             }
         }
         h1{
             -webkit-box-flex: 1;
             font-size: 1.6rem;
-            line-height: 4.5rem;
+            line-height: 4rem;
             text-align: center;
         }
-        .header_right{
+        .preview_right{
             .whb(6rem,auto,none);
             padding-right: 1rem;
-            line-height: 5.8rem;
+            line-height: 5.2rem;
             span{
                 .whb(1.8rem,auto,none);
                 margin-left: 1rem;
@@ -56,14 +56,14 @@ html,body,.boss{
         }
     }
     nav{
-        .whb(100%,17rem,none);
+        .whb(100%,10rem,none);
         background: url(../img/fit_06.png) no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% auto;
         .fit_title{
-            .whb(100%,4.5rem,none);
-            margin-top: 7rem;
+            .whb(100%,auto,none);
+            margin-top: 6%;
             .title_left{
-                .whb(70%,4.5rem,none);
+                .whb(70%,auto,none);
                 margin-left: 1rem;
                 float: left;
                 dl{
@@ -141,31 +141,32 @@ html,body,.boss{
             }
         }
         .nav_list{
-            .whb(100%,5.5rem,white);
+            .whb(100%,auto,white);
             opacity: 0.8;
             .box(horizontal);
             dl{
                 -webkit-box-flex: 1;
                 text-align: center;
                 img{
-                    .whb(2.1rem,auto,none);
-                    margin-top: 0.9rem;
+                    .whb(1.6rem,auto,none);
+                    margin-top: 0.3rem;
+                    margin-bottom: -0.2rem;
                 }
                 &:nth-child(1){
                     img{
-                        .whb(2.2rem,auto,none);
-                        margin-bottom: 0.1rem;
+                        .whb(1.9rem,auto,none);
+                        margin-bottom: -0.3rem;
                     }
                 }
                 dd{
                     position: relative;
                     span{
                         display: none;
-                        .whb(100%,0.2rem,#ff7e1c);
+                        .whb(100%,0.1rem,#ff7e1c);
                         margin-bottom: -0.5rem;
                         position: absolute;
                         left: 0rem;
-                        bottom: 0rem;
+                        bottom: 0.4rem;
                     }
                 }
             }
@@ -211,7 +212,7 @@ html,body,.boss{
                     p{
                         margin: 0.5rem 0.6rem;
                         b{
-                            font-size: 1.3rem;
+                            font-size: 1rem;
                             color: #ff7e1c;
                             float: left;
                             margin-top: -0.3rem;
@@ -219,7 +220,8 @@ html,body,.boss{
                         span{
                             float: right;
                             color: #a6a6a6;
-                            font-size: 1.1rem;
+                            font-size: 1rem;
+                            margin-top: -0.3rem;
                         }
                     }
                 }
@@ -231,16 +233,16 @@ html,body,.boss{
         }
     }
     footer{
-        .whb(100%,5rem,none);
+        .whb(100%,4rem,none);
         .box(horizontal);
         ul{
             -webkit-box-flex: 1;
             .box(horizontal);
-            padding: 0.8rem 0;
+            padding: 0.6rem 0;
             li{
                 -webkit-box-flex: 1;
                 text-align: center;
-                line-height: 3.4rem;
+                line-height: 3rem;
                 font-size: 1.4rem;
                 border-right: 1px solid gainsboro;
             }

@@ -5,12 +5,11 @@
 		<title></title>
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="css/query.css"/>
-		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		<div id="wrap">
+		<div id="wrap_query">
 			<header>
-				<div class="header_left">
+				<div class="header_left" ui-sref="money">
 					<img src="img/1_03.jpg"/>
 				</div>
 				<div class="header_center">
@@ -26,8 +25,8 @@
 						全部业务
 					</div>
 					<div class="n_1 div2">
-						<span>业务类型</span>
-						<span class="span1"><img class="img1" src="img/2_03.jpg"/></span>
+						<span class="span1">业务类型</span>
+						<span><img class="img1" src="img/2_03.jpg"/></span>
 						<ul class="ul1">
 							<li class="li2">购买商品</li>
 							<li>售后退款</li>
@@ -37,8 +36,8 @@
 						</ul>
 					</div>
 					<div class="n_1 div3">
-						<span>业务状态</span>
-						<span class="span2"><img class="img2" src="img/2_03.jpg"/></span>
+						<span class="span2">业务状态</span>
+						<span><img class="img2" src="img/2_03.jpg"/></span>
 						<ul class="ul1">
 							<li class="li2">购买商品</li>
 							<li>售后退款</li>
@@ -106,53 +105,6 @@
 			</section>
 		</div>
 	</body>
-	<script type="text/javascript">
-		$(function(){
-			$(".n_1").click(function(){
-				var index=$(this).index();
-				$(".n_1").removeClass("col").eq(index).addClass("col");
-				var $img = $(".img1").attr("src","img/2_03.jpg");
-				var $img1 = $(".img2").attr("src","img/2_03.jpg");
-				if(index==1){
-					var $img = $(".img1").attr("src","img/3_03.jpg");
-					var $img1 = $(".img2").attr("src","img/2_03.jpg");
-				}
-				if(index==2){
-					var $img = $(".img1").attr("src","img/2_03.jpg");
-					var $img1 = $(".img2").attr("src","img/3_03.jpg");
-				}
-				$(".div2>.ul1").css("display","none");
-				$(".div3>.ul1").css("display","none");
-			})
-			$(".span1").click(function(event){
-				$(".div2>.ul1").slideToggle("fast");
-				var $img = $(".img1").attr("src","img/3_03.jpg");
-				var $img1 = $(".img2").attr("src","img/2_03.jpg");
-				$(".div3>.ul1").css("display","none");
-				$(".n_1").removeClass("col").eq(1).addClass("col");
-				event.stopPropagation(); 
-			})
-			$(".span2").click(function(event){
-				$(".div2>.ul1").css("display","none");
-				$(".div3>.ul1").slideToggle("fast");
-				var $img = $(".img1").attr("src","img/2_03.jpg");
-				var $img1 = $(".img2").attr("src","img/3_03.jpg");
-				$(".n_1").removeClass("col").eq(2).addClass("col");
-				event.stopPropagation(); 
-			})
-			$(".div2>.ul1>li").click(function(event){
-				$(".div2>.ul1").css("display","block");
-				var index=$(this).index();
-				event.stopPropagation(); 
-				$(".div2>.ul1>li").removeClass("li2").eq(index).addClass("li2");
-			})
-			$(".div3>.ul1>li").click(function(event){
-				$(".div3>.ul1").css("display","block");
-				var index=$(this).index();
-				event.stopPropagation(); 
-				$(".div3>.ul1>li").removeClass("li2").eq(index).addClass("li2");
-				
-			})
-		})
-	</script>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/result.js"></script>
 </html>

@@ -14,10 +14,10 @@
 html{
     font-size: 62.5%;
 }
-html,body,.boss{
+html,body,.boss_mystore{
     .whb(100%,100%,null);
 }
-.boss{
+.boss_mystore{
     .box(vertical);
     header{
         .whb(100%,4.5rem,#f7f7f7);
@@ -49,6 +49,8 @@ html,body,.boss{
     section{
         -webkit-box-flex: 1;
         background: #f2f2f2;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;};
         .store_main1{
             margin: 1rem 0;
             border-bottom: 1px solid gainsboro;
@@ -152,17 +154,18 @@ html,body,.boss{
         }   
     }
     footer{
-        .whb(100%,45px,#ffffff);
+        .whb(100%,4rem,#ffffff);
         border-top: 1px solid gainsboro;
         .box(horizontal);
         dl{
             -webkit-box-flex: 1;
             text-align: center;
-            font-size: 10px;
+            font-size: 1rem;
             color: #808080;
             img{
                 .whb(auto,22px,none);
                 margin-top: 4px;
+                margin-bottom: -2px;
             }
             &:nth-child(1){
                 img{
@@ -172,7 +175,8 @@ html,body,.boss{
             }
             &:nth-child(3){
                 img{
-                    .whb(41px,auto,none);
+                    .whb(3.8rem,auto,none);
+                    margin-top: 3px;
                 }
             }
         }

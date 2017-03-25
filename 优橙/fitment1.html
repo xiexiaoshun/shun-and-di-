@@ -9,9 +9,9 @@
 		<link rel="stylesheet" href="css/swiper.min.css">
 	</head>
 	<body>
-		<div class="boss">
+		<div class="boss_fitment1">
 			<header>
-				<div class="header_left"><img src="img/notice_03.png"></div>
+				<div class="header_left" ui-sref="index"><img src="img/notice_03.png"></div>
 				<h1>装修店铺</h1>
 				<div class="header_right"><span>保存</span><span>取消</span></div>
 			</header>
@@ -20,7 +20,7 @@
 				<div class="nav_info">
 				    <div class="swiper-container">
 				        <div class="swiper-wrapper">
-				            <div class="swiper-slide change"><h5>81</h5><h6>查看全部</h6><span></span></div>
+				             <div class="swiper-slide change"><h5>81</h5><h6>查看全部</h6><span></span></div>
 				            <div class="swiper-slide"><h5>12</h5><h6>上架商品</h6><span></span></div>
 				            <div class="swiper-slide"><h5>23</h5><h6>库存商品</h6><span></span></div>
 				            <div class="swiper-slide"><h5>12</h5><h6>待审核商品</h6><span></span></div>
@@ -36,7 +36,7 @@
 			<section>
 				<div class="fit_shop">
 					<dl>
-						<dt><img src="img/order2.png"></dt>
+						<dt ui-sref="fitment2"><img src="img/order2.png"></dt>
 						<dd>
 							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
 							<div class="attr">
@@ -89,6 +89,18 @@
 							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
 							<div class="attr">
 								<p><b>￥50</b><br/><em>成功交易230次</em></p>
+								<p><span class="span-four">待审核</span></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="fit_shop">
+					<dl>
+						<dt><img src="img/order2.png"></dt>
+						<dd>
+							<h4>【3D打印的陶瓷】艺术家Micheal Eden认为艺术家Micheal Eden</h4>
+							<div class="attr">
+								<p><b>￥50</b><br/><em>成功交易230次</em></p>
 								<p><span class="span-five">草稿箱</span></p>
 							</div>
 						</dd>
@@ -111,25 +123,15 @@
 			</footer>
 		</div>
 	</body>
-	<script src="js/jquery-3.1.1.js"></script>
 	<script src="js/swiper.min.js"></script>
+	<script src="js/result.js"></script>
 	<!--导航栏-->
 	<script type="text/javascript">
 		var swiper = new Swiper('.swiper-container', {
 	        pagination: '.swiper-pagination',
-	        slidesPerView: 3.5,
+	        slidesPerView: 4,
 	        paginationClickable: true,
 	        freeMode: true
-	    });
-	    $(function(){
-			$('footer ul li:first').click(function(){
-				$('.shade_big').show();
-				$('.shade_small').show();
-			});
-			$('section .shade_small span:first').click(function(){
-				$('.shade_big').hide();
-				$('.shade_small').hide();
-			});
-		});
+	   });
 	</script>
 </html>

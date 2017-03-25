@@ -8,9 +8,9 @@
 		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		<div id="wrap">
+		<div id="wrap_info">
 			<header>
-				<div class="header_left">
+				<div class="header_left" ui-sref="index">
 					<img src="img/1_03.jpg"/>
 				</div>
 				<div class="header_center">
@@ -60,7 +60,7 @@
 								<img src="img/8-2.jpg"/>
 							</div>
 						</div>
-						<div class="main33">
+						<div class="main33" ui-sref="dataSave_sex">
 							<div class="main3_1">
 								<img src="img/8-5.jpg"/>
 							</div>
@@ -82,7 +82,7 @@
 								<img src="img/8-2.jpg"/>
 							</div>
 						</div>
-						<div class="main33">
+						<div class="main33" ui-sref="dataSave_tel">
 							<div class="main3_1">
 								<img src="img/8-6.jpg"/>
 							</div>
@@ -98,7 +98,7 @@
 				<div class="main2">
 					<h2>选填信息</h2>
 					<div class="main3">
-						<div class="main33">
+						<div class="main33" ui-sref="dataSave_city">
 							<div class="main3_1">
 								<img src="img/8-15.jpg"/>
 							</div>
@@ -112,7 +112,7 @@
 								<img src="img/8-2.jpg"/>
 							</div>
 						</div>
-						<div class="main33">
+						<div class="main33" ui-sref="dataSave_star">
 							<div class="main3_1">
 								<img src="img/8-14.jpg"/>
 							</div>
@@ -198,7 +198,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="main4">
+				<div class="main4"  ui-sref="info">
 					<p>我的二维码名片</p>
 					<div class="main4_r">
 						<img src="img/8-2.jpg"/>
@@ -207,7 +207,7 @@
 				<div class="main2">
 					<h2>店铺基本信息</h2>
 					<div class="main3">
-						<div class="main33">
+						<div class="main33" ui-sref="">
 							<div class="main3_1">
 								<img src="img/8-3.jpg"/>
 							</div>
@@ -215,7 +215,7 @@
 								设计师ID：小黑仔
 							</div>
 							<div class="main3_3">
-								<img src="img/8-2.jpg"/>
+				   				<img src="img/8-2.jpg"/>
 							</div>
 						</div>
 						<div class="main33">
@@ -231,7 +231,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="main5">
+				<div class="main5" ui-sref="dataSave_address">
 					<h2>默认收件信息</h2>
 					<div class="main6">
 						<div class="main6_1">
@@ -243,9 +243,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="main7">
-					
-				</div>
+				<div class="main7"></div>
 				<div class="main8">
 					<div class="main9">
 						<div class="maint">
@@ -260,16 +258,6 @@
 			</section>
 		</div>
 	</body>
-	<script type="text/javascript">
-		$(function(){
-			$(".img2").click(function(){
-				$(".main7").css("display","block");
-				$(".main8").css("display","block");
-			})
-			$(".mainb").click(function(){
-				$(".main7").css("display","none");
-				$(".main8").css("display","none");
-			})
-		})
-	</script>
+	<script src="js/result.js"></script>
+	<script src="js/lou.js"></script>
 </html>

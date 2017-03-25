@@ -14,29 +14,29 @@
 html{
     font-size: 62.5%;
 }
-html,body,.boss{
+html,body,.bos_feedback{
     .whb(100%,100%,null);
 }
-.boss{
+.bos_feedback{
     .box(vertical);
     header{
-        .whb(100%,4.5rem,#f7f7f7);
+        .whb(100%,4rem,#f7f7f7);
         .box(horizontal);
         border-bottom: 1px solid gainsboro;
         position: relative;
         .header_left{
             position: absolute;
             left: 1rem;
-            top: 1.2rem;
+            top: 1.4rem;
             img{
-                .whb(1rem,auto,none);
+                .whb(0.8rem,auto,none);
             }
         }
         h1{
             -webkit-box-flex: 1;
             text-align: center;
             font-size: 1.5rem;
-            line-height: 4.5rem;
+            line-height: 4rem;
         }
     }
     section{
@@ -44,6 +44,8 @@ html,body,.boss{
         background: #f2f2f2;
         padding: 0 3rem;
         text-align: center;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;};
         img{
             .whb(10.5rem,auto,#f2f2f2);
             margin-top: 7rem;

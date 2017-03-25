@@ -34,6 +34,10 @@ body,
 .boss section {
   -webkit-box-flex: 1;
   background: #f7f7f7;
+  overflow-y: auto;
+}
+.boss section::-webkit-scrollbar {
+  width: 0;
 }
 .boss section .contain {
   border-bottom: 1px solid #b4b4b4;

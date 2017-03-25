@@ -70,7 +70,7 @@ html,body,.boss{
         -webkit-box-flex: 1;
     }
     nav{
-        .whb(100%,5rem,white);
+        .whb(100%,4.5rem,white);
         border-bottom: 1px solid gainsboro;
         .box(horizontal);
         .nav_info{
@@ -82,17 +82,17 @@ html,body,.boss{
                 position: relative;
                 h5{
                     font-size: 1.2rem;
-                    line-height: 2.2rem;
-                    margin-top: 4px;
+                    line-height: 2.1rem;
+                    margin-top: 0.3rem;
                 }
                 h6{
                     font-size: 1.3rem;
                 }
                 span{
                     display: none;
-                    .whb(100%,1px,#ff7f1c);
+                    .whb(100%,0.5rem,#ff7f1c);
                     position: absolute;
-                    bottom: -5px;
+                    bottom: -0.9rem;
                 }
             }
             .change{
@@ -117,7 +117,7 @@ html,body,.boss{
         .pull{
             .whb(4.5rem,auto,none);
             border-left: 1px solid gainsboro; 
-            margin: 0.6rem 0;
+            margin: 0.5rem 0;
                 text-align: center;
                 line-height: 4rem;
             img{
@@ -126,50 +126,53 @@ html,body,.boss{
         }
         .shade_big{
             .whb(100%,100%,#919191);
-            display: block;
+            display: none;
             position: absolute;
             left: 0px;
             top: 0px;
             opacity: 0.4;
         }
         .shade_small{
-            .whb(100%,15rem,grey);
+            .whb(100%,14.5rem,grey);
+            display: none;
             z-index: 999;
             position: absolute;
             top: 0rem;
             left: 0;
             .order_option{
-                .whb(100%,5rem,#f2f2f2);
-                H4{
-                    font-size: 1.4rem;
-                    line-height: 5rem;
+                .whb(100%,4.5rem,#f2f2f2);
+                h4{
+                    font-size: 1.5rem;
+                    line-height: 4.5rem;
                     margin-left: 2rem;
                     color: #999999;
                     float: left;
                 }
                 span{
                     float: right;
-                    margin-top: 1.6rem;
+                    margin-top: 1.5rem;
                     margin-right: 1.4rem;
                     img{
-                        .whb(1.8rem,auto,none);
+                        .whb(1.4rem,auto,none);
                     }
                 }
             }
             .order_type{
                 .whb(100%,10rem,#ffffff);
                 ul{
-                    .box(horizontal);
                     li{
-                        -webkit-box-flex: 1;
                         .whb(33%,5rem,none);
                         text-align: center;
                         border-right: 1px solid gainsboro;
                         border-bottom: 1px solid gainsboro;
+                        float: left;
                         position:relative; 
                         &:nth-child(3){
                             border-right: none;
-                        } 
+                        }
+                        &:nth-child(6) {
+                                border-right: none;
+                            } 
                         h5{
                             font-size: 1.2rem;
                             line-height: 2.2rem;
@@ -200,6 +203,12 @@ html,body,.boss{
         background: #f7f7f7;
         overflow-y: auto;
         &::-webkit-scrollbar{width: 0;};
+        &>div{
+            display: none;
+        }
+        .myorange_one{
+            display: block;
+        }
         .order_num{
             .whb(100%,auto,white);
             margin-top: 0.5rem;
