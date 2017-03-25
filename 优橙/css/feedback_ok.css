@@ -43,6 +43,10 @@ body,
   background: #f2f2f2;
   padding: 0 3rem;
   text-align: center;
+  overflow-y: auto;
+}
+.bos_feedback section::-webkit-scrollbar {
+  width: 0;
 }
 .bos_feedback section img {
   width: 10.5rem;

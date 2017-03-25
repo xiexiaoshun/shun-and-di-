@@ -48,6 +48,10 @@ body,
 .boss_orange section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
+  overflow-y: auto;
+}
+.boss_orange section::-webkit-scrollbar {
+  width: 0;
 }
 .boss_orange section .orange_main1 {
   width: 100%;

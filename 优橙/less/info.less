@@ -11,7 +11,7 @@ html,body,#wrap{
     font-size: 62.5%;
     overflow:hidden;
 }
-#wrap{
+#wrap_info{
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
@@ -48,6 +48,7 @@ header{
 section{
     -webkit-box-flex: 1;
     overflow-y:auto;
+    &::-webkit-scrollbar{width: 0;};
     .main1{
         .whb(100%,auto,#fff);
         position: relative;

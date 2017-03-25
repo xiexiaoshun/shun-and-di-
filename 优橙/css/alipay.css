@@ -54,6 +54,10 @@ header .header_center {
 }
 section {
   -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+section::-webkit-scrollbar {
+  width: 0;
 }
 section .main {
   width: 100%;

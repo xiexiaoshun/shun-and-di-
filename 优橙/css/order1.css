@@ -47,6 +47,10 @@ body,
 .boss_order section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
+  overflow-y: auto;
+}
+.boss_order section::-webkit-scrollbar {
+  width: 0;
 }
 .boss_order section .order_main {
   width: 100%;

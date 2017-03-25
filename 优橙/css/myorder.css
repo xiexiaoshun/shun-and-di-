@@ -4,17 +4,17 @@ html {
 }
 html,
 body,
-.boss {
+.boss_myorder {
   width: 100%;
   height: 100%;
   background: null;
   overflow: hidden;
 }
-.boss {
+.boss_myorder {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-.boss header {
+.boss_myorder header {
   width: 100%;
   height: 4rem;
   background: #f7f7f7;
@@ -22,22 +22,22 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss header .order_left {
+.boss_myorder header .order_left {
   width: 1rem;
   height: auto;
   background: none;
   margin-left: 1rem;
   margin-top: 1.2rem;
 }
-.boss header .order_left img {
+.boss_myorder header .order_left img {
   width: 1rem;
   height: auto;
   background: none;
 }
-.boss header .order_center {
+.boss_myorder header .order_center {
   -webkit-box-flex: 1;
 }
-.boss header .order_center .order_son {
+.boss_myorder header .order_center .order_son {
   width: 16rem;
   height: 2.2rem;
   background: none;
@@ -48,7 +48,7 @@ body,
   overflow: hidden;
   text-align: center;
 }
-.boss header .order_center .order_son span {
+.boss_myorder header .order_center .order_son span {
   display: block;
   width: 8rem;
   height: 2.5rem;
@@ -59,23 +59,23 @@ body,
   color: #ff7f1c;
   background: none;
 }
-.boss header .order_center .order_son .first {
+.boss_myorder header .order_center .order_son .first {
   color: white;
   background: #ff7f1c;
 }
-.boss header .order_right {
+.boss_myorder header .order_right {
   width: 1.8rem;
   height: auto;
   background: none;
   margin-right: 1rem;
   margin-top: 1.2rem;
 }
-.boss header .order_right img {
+.boss_myorder header .order_right img {
   width: 1.8rem;
   height: auto;
   background: none;
 }
-.boss nav {
+.boss_myorder nav {
   width: 100%;
   height: 4.5rem;
   background: #ffffff;
@@ -83,25 +83,25 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss nav .nav_info {
+.boss_myorder nav .nav_info {
   -webkit-box-flex: 1;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss nav .nav_info .swiper-slide {
+.boss_myorder nav .nav_info .swiper-slide {
   text-align: center;
   position: relative;
 }
-.boss nav .nav_info .swiper-slide h5 {
+.boss_myorder nav .nav_info .swiper-slide h5 {
   font-size: 1.2rem;
   line-height: 2.1rem;
   margin-top: 0.3rem;
 }
-.boss nav .nav_info .swiper-slide h6 {
+.boss_myorder nav .nav_info .swiper-slide h6 {
   font-size: 1.3rem;
 }
-.boss nav .nav_info .swiper-slide span {
+.boss_myorder nav .nav_info .swiper-slide span {
   display: none;
   width: 100%;
   height: 0.5rem;
@@ -109,25 +109,25 @@ body,
   position: absolute;
   bottom: -0.9rem;
 }
-.boss nav .nav_info .change {
+.boss_myorder nav .nav_info .change {
   color: #ff7f1c;
 }
-.boss nav .nav_info .change span {
+.boss_myorder nav .nav_info .change span {
   display: block;
 }
-.boss nav .nav_info li {
+.boss_myorder nav .nav_info li {
   -webkit-box-flex: 1;
   text-align: center;
 }
-.boss nav .nav_info li h5 {
+.boss_myorder nav .nav_info li h5 {
   font-size: 1.2rem;
   line-height: 2.2rem;
   margin-top: 4px;
 }
-.boss nav .nav_info li h6 {
+.boss_myorder nav .nav_info li h6 {
   font-size: 1.3rem;
 }
-.boss nav .pull {
+.boss_myorder nav .pull {
   width: 4.5rem;
   height: auto;
   background: none;
@@ -136,12 +136,12 @@ body,
   text-align: center;
   line-height: 4rem;
 }
-.boss nav .pull img {
+.boss_myorder nav .pull img {
   width: 1.4rem;
   height: auto;
   background: none;
 }
-.boss nav .shade_big {
+.boss_myorder nav .shade_big {
   width: 100%;
   height: 100%;
   background: #919191;
@@ -151,7 +151,7 @@ body,
   left: 0rem;
   top: 4.5rem;
 }
-.boss nav .shade_small {
+.boss_myorder nav .shade_small {
   width: 100%;
   height: 14.5rem;
   background: #808080;
@@ -161,34 +161,34 @@ body,
   top: 4.1rem;
   left: 0rem;
 }
-.boss nav .shade_small .order_option {
+.boss_myorder nav .shade_small .order_option {
   width: 100%;
   height: 4.5rem;
   background: #f2f2f2;
 }
-.boss nav .shade_small .order_option h4 {
+.boss_myorder nav .shade_small .order_option h4 {
   font-size: 1.5rem;
   line-height: 4.5rem;
   margin-left: 2rem;
   color: #999999;
   float: left;
 }
-.boss nav .shade_small .order_option span {
+.boss_myorder nav .shade_small .order_option span {
   float: right;
   margin-top: 1.5rem;
   margin-right: 1.4rem;
 }
-.boss nav .shade_small .order_option span img {
+.boss_myorder nav .shade_small .order_option span img {
   width: 1.4rem;
   height: auto;
   background: none;
 }
-.boss nav .shade_small .order_type {
+.boss_myorder nav .shade_small .order_type {
   width: 100%;
   height: 10rem;
   background: #ffffff;
 }
-.boss nav .shade_small .order_type ul li {
+.boss_myorder nav .shade_small .order_type ul li {
   width: 33%;
   height: 5rem;
   background: none;
@@ -198,21 +198,21 @@ body,
   border-bottom: 1px solid gainsboro;
   position: relative;
 }
-.boss nav .shade_small .order_type ul li:nth-child(3) {
+.boss_myorder nav .shade_small .order_type ul li:nth-child(3) {
   border-right: none;
 }
-.boss nav .shade_small .order_type ul li:nth-child(6) {
+.boss_myorder nav .shade_small .order_type ul li:nth-child(6) {
   border-right: none;
 }
-.boss nav .shade_small .order_type ul li h5 {
+.boss_myorder nav .shade_small .order_type ul li h5 {
   font-size: 1.2rem;
   line-height: 2.2rem;
   margin-top: 4px;
 }
-.boss nav .shade_small .order_type ul li h6 {
+.boss_myorder nav .shade_small .order_type ul li h6 {
   font-size: 1.3rem;
 }
-.boss nav .shade_small .order_type ul li span {
+.boss_myorder nav .shade_small .order_type ul li span {
   display: none;
   width: 100%;
   height: 1px;
@@ -220,57 +220,57 @@ body,
   position: absolute;
   bottom: 0;
 }
-.boss nav .shade_small .order_type ul .only {
+.boss_myorder nav .shade_small .order_type ul .only {
   color: #ff7f1c;
 }
-.boss nav .shade_small .order_type ul .only span {
+.boss_myorder nav .shade_small .order_type ul .only span {
   display: block;
 }
-.boss section {
+.boss_myorder section {
   -webkit-box-flex: 1;
   background: #f7f7f7;
   overflow-y: auto;
 }
-.boss section::-webkit-scrollbar {
+.boss_myorder section::-webkit-scrollbar {
   width: 0;
 }
-.boss section > div {
+.boss_myorder section > div {
   display: none;
 }
-.boss section .myorder_one {
+.boss_myorder section .myorder_one {
   display: block;
 }
-.boss section .order_num {
+.boss_myorder section .order_num {
   width: 100%;
   height: auto;
   background: #ffffff;
   margin-top: 0.5rem;
 }
-.boss section .order_num .order_title {
+.boss_myorder section .order_num .order_title {
   width: 100%;
   height: 3rem;
   background: none;
   border-bottom: 1px solid beige;
   line-height: 3rem;
 }
-.boss section .order_num .order_title h3 {
+.boss_myorder section .order_num .order_title h3 {
   float: left;
   margin-left: 1rem;
 }
-.boss section .order_num .order_title span {
+.boss_myorder section .order_num .order_title span {
   float: right;
   margin-right: 1rem;
   color: #ff7f1c;
 }
-.boss section .order_num .order_info {
+.boss_myorder section .order_num .order_info {
   padding: 0.5rem 0;
 }
-.boss section .order_num .order_info p {
+.boss_myorder section .order_num .order_info p {
   color: #666666;
   margin-left: 1rem;
   line-height: 1.8rem;
 }
-.boss footer {
+.boss_myorder footer {
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -278,26 +278,26 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss footer dl {
+.boss_myorder footer dl {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 1rem;
   color: #808080;
 }
-.boss footer dl img {
+.boss_myorder footer dl img {
   width: auto;
   height: 22px;
   background: none;
   margin-top: 4px;
   margin-bottom: -2px;
 }
-.boss footer dl:nth-child(1) img {
+.boss_myorder footer dl:nth-child(1) img {
   width: auto;
   height: 23px;
   background: none;
   margin-top: 3px;
 }
-.boss footer dl:nth-child(3) img {
+.boss_myorder footer dl:nth-child(3) img {
   width: 3.8rem;
   height: auto;
   background: none;

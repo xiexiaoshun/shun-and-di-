@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/swiper.min.css">
 	</head>
 	<body ui-view>
-		<div class="boss">
+		<div class="boss_myorder">
 			<header>
 				<div class="order_left" ui-sref="index"><img src="img/1_03.jpg"></div>
 				<div class="order_center"><div class="order_son"><span class="first">商品订单</span><span ui-sref="myorange">优橙订单</span></div></div>
@@ -26,7 +26,7 @@
 				            <div class="swiper-slide"><h5>12</h5><h6>待收货</h6><span></span></div>
 					        <div class="swiper-slide"><h5>1</h5><h6>售后中</h6><span></span></div>
 					        <div class="swiper-slide"><h5>33</h5><h6>已完成</h6><span></span></div>
-					    </div>
+					    </div>       
 				    </div>
 				</div>
 				<div class="pull">
@@ -239,4 +239,12 @@
 	<script src="js/angular-ui-router.min.js" charset="utf-8"></script>-->
 	<script src="js/lou.js"></script>
 	<script src="js/result.js"></script>	
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    slidesPerView: 4,
+	        paginationClickable: true,
+	        freeMode: true
+	  	});
+	</script>
 </html>

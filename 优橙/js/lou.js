@@ -35,6 +35,11 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 			url: 'signed',
 			templateUrl: "signed.html"
 		})
+		//首页-店铺名称
+		.state("dataSave_shopname", {
+			url: 'dataSave_shopname',
+			templateUrl: "dataSave_shopname.html"
+		})
 		
 		//更多
 		.state("more", {

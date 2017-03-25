@@ -14,10 +14,10 @@
 html{
     font-size: 62.5%;
 }
-html,body,.boss{
+html,body,.boss_mystore{
     .whb(100%,100%,null);
 }
-.boss{
+.boss_mystore{
     .box(vertical);
     header{
         .whb(100%,4.5rem,#f7f7f7);
@@ -49,6 +49,8 @@ html,body,.boss{
     section{
         -webkit-box-flex: 1;
         background: #f2f2f2;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;};
         .store_main1{
             margin: 1rem 0;
             border-bottom: 1px solid gainsboro;

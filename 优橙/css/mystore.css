@@ -4,16 +4,16 @@ html {
 }
 html,
 body,
-.boss {
+.boss_mystore {
   width: 100%;
   height: 100%;
   background: null;
 }
-.boss {
+.boss_mystore {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-.boss header {
+.boss_mystore header {
   width: 100%;
   height: 4.5rem;
   background: #f7f7f7;
@@ -21,45 +21,49 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss header .store_left {
+.boss_mystore header .store_left {
   width: 1rem;
   height: auto;
   background: none;
   margin-left: 1rem;
   margin-top: 1.2rem;
 }
-.boss header .store_left img {
+.boss_mystore header .store_left img {
   width: 1rem;
   height: auto;
   background: none;
 }
-.boss header h1 {
+.boss_mystore header h1 {
   -webkit-box-flex: 1;
   text-align: center;
   line-height: 4.6rem;
   font-size: 1.6rem;
 }
-.boss header .store_right {
+.boss_mystore header .store_right {
   width: 1.8rem;
   height: auto;
   background: none;
   margin-right: 1rem;
   margin-top: 1.2rem;
 }
-.boss header .store_right img {
+.boss_mystore header .store_right img {
   width: 1.8rem;
   height: auto;
   background: none;
 }
-.boss section {
+.boss_mystore section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
+  overflow-y: auto;
 }
-.boss section .store_main1 {
+.boss_mystore section::-webkit-scrollbar {
+  width: 0;
+}
+.boss_mystore section .store_main1 {
   margin: 1rem 0;
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main1 .main1 {
+.boss_mystore section .store_main1 .main1 {
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -68,12 +72,12 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .store_main1 .main1 p {
+.boss_mystore section .store_main1 .main1 p {
   -webkit-box-flex: 1;
   border-bottom: 1px solid gainsboro;
   margin-left: 1rem;
 }
-.boss section .store_main1 .main1 p img {
+.boss_mystore section .store_main1 .main1 p img {
   width: 2.1rem;
   height: auto;
   background: none;
@@ -81,13 +85,13 @@ body,
   margin-right: 1rem;
   margin-top: -3px;
 }
-.boss section .store_main1 .main1 span {
+.boss_mystore section .store_main1 .main1 span {
   width: 1rem;
   height: auto;
   background: none;
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main1 .main1 span img {
+.boss_mystore section .store_main1 .main1 span img {
   padding-right: 1rem;
   width: 1rem;
   height: auto;
@@ -95,13 +99,13 @@ body,
   margin-top: 1.2rem;
   padding-bottom: 0.7rem;
 }
-.boss section .store_main1 .main1 .view {
+.boss_mystore section .store_main1 .main1 .view {
   border: none;
 }
-.boss section .store_main2 {
+.boss_mystore section .store_main2 {
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main2 .main2 {
+.boss_mystore section .store_main2 .main2 {
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -110,12 +114,12 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .store_main2 .main2 p {
+.boss_mystore section .store_main2 .main2 p {
   -webkit-box-flex: 1;
   border-bottom: 1px solid gainsboro;
   margin-left: 1rem;
 }
-.boss section .store_main2 .main2 p img {
+.boss_mystore section .store_main2 .main2 p img {
   width: 2.1rem;
   height: auto;
   background: none;
@@ -123,13 +127,13 @@ body,
   margin-right: 1rem;
   margin-top: -3px;
 }
-.boss section .store_main2 .main2 span {
+.boss_mystore section .store_main2 .main2 span {
   width: 1rem;
   height: auto;
   background: none;
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main2 .main2 span img {
+.boss_mystore section .store_main2 .main2 span img {
   padding-right: 1rem;
   width: 1rem;
   height: auto;
@@ -137,14 +141,14 @@ body,
   margin-top: 1.2rem;
   padding-bottom: 0.7rem;
 }
-.boss section .store_main2 .main2 .view {
+.boss_mystore section .store_main2 .main2 .view {
   border: none;
 }
-.boss section .store_main3 {
+.boss_mystore section .store_main3 {
   margin-top: 1rem;
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main3 .main3 {
+.boss_mystore section .store_main3 .main3 {
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -153,12 +157,12 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss section .store_main3 .main3 p {
+.boss_mystore section .store_main3 .main3 p {
   -webkit-box-flex: 1;
   border-bottom: 1px solid gainsboro;
   margin-left: 1rem;
 }
-.boss section .store_main3 .main3 p img {
+.boss_mystore section .store_main3 .main3 p img {
   width: 2.1rem;
   height: auto;
   background: none;
@@ -166,13 +170,13 @@ body,
   margin-right: 1rem;
   margin-top: -3px;
 }
-.boss section .store_main3 .main3 span {
+.boss_mystore section .store_main3 .main3 span {
   width: 1rem;
   height: auto;
   background: none;
   border-bottom: 1px solid gainsboro;
 }
-.boss section .store_main3 .main3 span img {
+.boss_mystore section .store_main3 .main3 span img {
   padding-right: 1rem;
   width: 1rem;
   height: auto;
@@ -180,10 +184,10 @@ body,
   margin-top: 1.2rem;
   padding-bottom: 0.7rem;
 }
-.boss section .store_main3 .main3 .view {
+.boss_mystore section .store_main3 .main3 .view {
   border: none;
 }
-.boss footer {
+.boss_mystore footer {
   width: 100%;
   height: 4rem;
   background: #ffffff;
@@ -191,26 +195,26 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.boss footer dl {
+.boss_mystore footer dl {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 1rem;
   color: #808080;
 }
-.boss footer dl img {
+.boss_mystore footer dl img {
   width: auto;
   height: 22px;
   background: none;
   margin-top: 4px;
   margin-bottom: -2px;
 }
-.boss footer dl:nth-child(1) img {
+.boss_mystore footer dl:nth-child(1) img {
   width: auto;
   height: 23px;
   background: none;
   margin-top: 3px;
 }
-.boss footer dl:nth-child(3) img {
+.boss_mystore footer dl:nth-child(3) img {
   width: 3.8rem;
   height: auto;
   background: none;

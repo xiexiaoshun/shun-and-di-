@@ -42,6 +42,10 @@ body,
   -webkit-box-flex: 1;
   background: #f2f2f2;
   padding: 0 1rem;
+  overflow-y: auto;
+}
+.boss_feedback section::-webkit-scrollbar {
+  width: 0;
 }
 .boss_feedback section h2 {
   line-height: 3rem;

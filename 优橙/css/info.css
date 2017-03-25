@@ -8,7 +8,7 @@ body,
   font-size: 62.5%;
   overflow: hidden;
 }
-#wrap {
+#wrap_info {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
@@ -55,6 +55,9 @@ header .header_center {
 section {
   -webkit-box-flex: 1;
   overflow-y: auto;
+}
+section::-webkit-scrollbar {
+  width: 0;
 }
 section .main1 {
   width: 100%;
