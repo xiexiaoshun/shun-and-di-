@@ -5,39 +5,9 @@
 		<title>优橙-我的商品订单</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/swiper.min.css">
 		<link rel="stylesheet" href="css/myorder.css">
-		<script src="js/jquery-3.1.1.js"></script>
-		<script src="js/swiper.min.js"></script>
-		<script src="js/angular.js" charset="utf-8"></script>
-		<script src="js/angular-route.min.js" charset="utf-8"></script>
-		<script src="js/angular-ui-router.min.js" charset="utf-8"></script>
-		<script src="js/lou.js"></script>
+		<link rel="stylesheet" href="css/swiper.min.css">
 	</head>
-<<<<<<< HEAD
-	<body ng-app='myapp'>
-		<div class="boss" ui-view='box'>
-				<header>
-					<div class="order_left"><img src="img/1_03.jpg"></div>
-					<div class="order_center"><div class="order_son"><span class="first">商品订单</span><span>优橙订单</span></div></div>
-					<div class="order_right"><img src="img/1_05.jpg"></div>
-				</header>
-				<nav>
-					<!-- Swiper -->
-					<div class="nav_info">
-						<div class="swiper-container">
-					        <div class="swiper-wrapper">
-						        <div class="swiper-slide change"><h5>81</h5><h6>全部</h6><span></span></div>
-					            <div class="swiper-slide"><h5>12</h5><h6>未付款</h6><span></span></div>
-						        <div class="swiper-slide"><h5>23</h5><h6>待发货</h6><span></span></div>
-					            <div class="swiper-slide"><h5>12</h5><h6>待收货</h6><span></span></div>
-						        <div class="swiper-slide"><h5>1</h5><h6>售后中</h6><span></span></div>
-						        <div class="swiper-slide"><h5>33</h5><h6>已完成</h6><span></span></div>
-						    </div>
-					    </div>
-					</div>
-					<div class="pull">
-=======
 	<body ui-view>
 		<div class="boss_myorder">
 			<header>
@@ -60,7 +30,6 @@
 				    </div>
 				</div>
 				<div class="pull">
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<img src="img/order.png">
 					</div>
 				<!--遮罩列表-->
@@ -75,27 +44,16 @@
 									<li class="only"><h5>81</h5><h6>全部</h6><span></span></li>
 									<li><h5>12</h5><h6>未付款</h6><span></span></li>
 									<li><h5>23</h5><h6>待发货</h6><span></span></li>
-<<<<<<< HEAD
-								</ul>
-								<ul>
-=======
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 									<li><h5>12</h5><h6>待收货</h6><span></span></li>
 									<li><h5>1</h5><h6>售后中</h6><span></span></li>
 									<li><h5>33</h5><h6>已完成</h6><span></span></li>
 								</ul>
 							</div>
 					</div>
-<<<<<<< HEAD
-				</nav>
-			<section>
-				<div class="order_num">
-=======
 			</nav>
 			<section>
 				<div class="myorder_one" ui-sref="order1">
 					<div class="order_num">
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>待收货</span>
@@ -107,11 +65,7 @@
 							<p>物流信息：顺丰速运 929526579</p>
 						</div>
 					</div>
-<<<<<<< HEAD
-				<div class="order_num">
-=======
 					<div class="order_num">
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>待发货</span>
@@ -121,11 +75,7 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
-<<<<<<< HEAD
-				<div class="order_num">
-=======
 					<div class="order_num">
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>未付款</span>
@@ -135,9 +85,6 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
-<<<<<<< HEAD
-				<div class="order_num">
-=======
 					<div class="order_num">
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
@@ -251,7 +198,6 @@
 						</div>
 					</div>
 					<div class="order_num">
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 						<div class="order_title">
 							<h3>订单编号：ZD1023586500</h3>
 							<span>退款中</span>
@@ -261,10 +207,7 @@
 							<p>交易时间：2016-06-01 12:14</p>
 						</div>
 					</div>
-<<<<<<< HEAD
-=======
 				</div>
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 			</section>
 			<footer>
 				<dl ui-sref="index">
@@ -290,22 +233,6 @@
 		</footer>
 		</div>
 	</body>
-<<<<<<< HEAD
-	<script type="text/javascript">
-		$(function(){
-			$('.pull img').click(function(){
-				$('.shade_big').show();
-				$('.shade_small').show();
-			});
-			$('.shade_small .order_option img').click(function(){
-				$('.shade_big').hide();
-				$('.shade_small').hide();
-			});
-		});
-		var swiper = new Swiper('.swiper-container', {
-	        pagination: '.swiper-pagination',
-	        slidesPerView: 3.5,
-=======
 	<script src="js/swiper.min.js"></script>
 	<!--<script src="js/angular.js" charset="utf-8"></script>
 	<script src="js/angular-route.min.js" charset="utf-8"></script>
@@ -316,7 +243,6 @@
 		var swiper = new Swiper('.swiper-container', {
 		    pagination: '.swiper-pagination',
 		    slidesPerView: 4,
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 	        paginationClickable: true,
 	        freeMode: true
 	  	});

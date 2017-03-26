@@ -7,35 +7,10 @@ body,
   background: null;
   overflow: hidden;
 }
-<<<<<<< HEAD
-.father_box {
-  -webkit-box-flex: 1;
-  overflow-y: auto;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
-.father_box::-webkit-scrollbar {
-  width: 0;
-}
-.father_box header {
-  width: 100%;
-  height: 45px;
-  background: #f7f7f7;
-}
-.father_box .son_box {
-  -webkit-box-flex: 1;
-  overflow-y: auto;
-}
-.father_box .son_box::-webkit-scrollbar {
-  width: 0;
-}
-.boss {
-=======
 html {
   font-size: 62.5%;
 }
 .boss_index {
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
@@ -137,13 +112,10 @@ html {
 .boss_index section {
   -webkit-box-flex: 1;
   background: #f2f2f2;
-<<<<<<< HEAD
-=======
   overflow-y: auto;
 }
 .boss_index section::-webkit-scrollbar {
   width: 0;
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 }
 .boss_index section .work h2 {
   background: white;

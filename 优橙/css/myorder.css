@@ -75,11 +75,7 @@ body,
   height: auto;
   background: none;
 }
-<<<<<<< HEAD
-.boss nav {
-=======
 .boss_myorder nav {
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
   width: 100%;
   height: 4.5rem;
   background: #ffffff;
@@ -162,11 +158,7 @@ body,
   display: none;
   z-index: 999;
   position: absolute;
-<<<<<<< HEAD
-  top: 4.5rem;
-=======
   top: 4.1rem;
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
   left: 0rem;
 }
 .boss_myorder nav .shade_small .order_option {
@@ -239,16 +231,11 @@ body,
   background: #f7f7f7;
   overflow-y: auto;
 }
-<<<<<<< HEAD
-.boss section::-webkit-scrollbar {
-  width: 0;
-=======
 .boss_myorder section::-webkit-scrollbar {
   width: 0;
 }
 .boss_myorder section > div {
   display: none;
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 }
 .boss_myorder section .myorder_one {
   display: block;

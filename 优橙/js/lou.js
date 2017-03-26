@@ -1,5 +1,5 @@
-var myapp = angular.module("myapp", ['ui.router']);
-myapp.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
+var myDiv = angular.module("myapp", ['ui.router']);
+myDiv.config(['$stateProvider', function($stateProvider) {
 	$stateProvider
 		//首次登陆
 		.state("login", {
@@ -113,13 +113,8 @@ myapp.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $ur
 		//优橙协助
 		.state("orange_help", {
 			url: 'orange_help',
-			views:{
-				"box":{
-					templateUrl: "orange_help.html"	
-				}
-			}
+			templateUrl: "orange_help.html"
 		})
-		//订单状态
 		//优橙协助-修改收货地址
 		.state("save_address", {
 			url: 'save_address',
@@ -130,20 +125,7 @@ myapp.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $ur
 		//商品订单
 		.state("myorder", {
 			url: 'myorder',
-			views:{
-				"box":{
-					templateUrl: "myorder.html"	
-				}
-			}
-		})
-		//我的店铺
-		.state("mystore", {
-			url: 'mystore',
-			views:{
-				"box":{
-					templateUrl: "mystore.html"	
-				}
-			}
+			templateUrl: "myorder.html"
 		})
 		//商品订单-订单详情
 		.state("order1", {
