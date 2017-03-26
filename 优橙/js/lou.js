@@ -1,19 +1,5 @@
-<<<<<<< HEAD
 var myapp = angular.module("myapp", ['ui.router']);
 myapp.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
-	$stateProvider
-		//首页  
-		.state("index", {
-			url: 'index',
-			views:{
-				"box":{
-					templateUrl: "index.html"	
-				}
-			}
-		})
-=======
-var myDiv = angular.module("myapp", ['ui.router']);
-myDiv.config(['$stateProvider', function($stateProvider) {
 	$stateProvider
 		//首次登陆
 		.state("login", {
@@ -124,7 +110,6 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 		})
 		
 		//优橙协助orange_help
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 		//优橙协助
 		.state("orange_help", {
 			url: 'orange_help',
@@ -134,9 +119,7 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 				}
 			}
 		})
-<<<<<<< HEAD
 		//订单状态
-=======
 		//优橙协助-修改收货地址
 		.state("save_address", {
 			url: 'save_address',
@@ -145,7 +128,6 @@ myDiv.config(['$stateProvider', function($stateProvider) {
 		
 		//订单状态myorder
 		//商品订单
->>>>>>> 9ebe575ce7a6809b11981888b6e87a719bcf8a47
 		.state("myorder", {
 			url: 'myorder',
 			views:{
