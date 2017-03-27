@@ -78,7 +78,7 @@ body,
 .boss_fitment1 nav .nav_info .swiper-slide span {
   display: none;
   width: 100%;
-  height: 1px;
+  height: 0.6rem;
   background: #ff7f1c;
   position: absolute;
   bottom: -10px;
